@@ -1,8 +1,8 @@
 """Build the lab record (.docx) for every experiment in the teacher's template format.
 
 Usage: make_records.py [REG_NO]
-Placeholders (<REG. NO>, <GitHub Link>, <LinkedIn Post Link>, <YouTube Link>) are
-highlighted in yellow so they are easy to find and replace.
+The GitHub and LinkedIn links are written as clickable links; the <REG. NO> placeholder
+(when no REG_NO is given) is highlighted in yellow.
 """
 import os
 import sys
@@ -17,6 +17,16 @@ from PIL import Image
 
 GPT4 = os.path.expanduser("~/Desktop/gpt4")
 REG_NO = sys.argv[1] if len(sys.argv) > 1 else "<REG. NO>"
+GITHUB = "https://github.com/nesrekk/gpt4/tree/main/"
+LINKEDIN = {
+    "Exp0_Study_Installation_of_LLM": "https://lnkd.in/p/dPsfB6R6",
+    "Exp1_ECommerceGPT": "https://lnkd.in/p/dnqtkDq8",
+    "Exp2_BlogGenerator": "https://lnkd.in/p/dn9dA3fN",
+    "Exp3_EmailAssistant": "https://lnkd.in/p/dN6q59F4",
+    "Exp4_RecommendationSystem": "https://lnkd.in/p/dCJ3CSym",
+    "Exp5_LegalDocumentAnalyzer": "https://lnkd.in/p/dC3ejhA8",
+    "Exp6_MedicalSymptomAssistant": "https://lnkd.in/p/dJe5hke7",
+}
 
 VERSIONS = [
     ("Python", "3.13.5"),
@@ -177,11 +187,31 @@ def image(doc, path, caption, width=6.4, max_height=8.2):
     r.font.size = Pt(10)
 
 
-def link_line(doc, label, placeholder):
+def hyperlink(paragraph, url):
+    """Add url to the paragraph as a clickable blue underlined link."""
+    rel = paragraph.part.relate_to(url, "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink",
+                                   is_external=True)
+    link = OxmlElement("w:hyperlink")
+    link.set(qn("r:id"), rel)
+    run = OxmlElement("w:r")
+    props = OxmlElement("w:rPr")
+    color = OxmlElement("w:color")
+    color.set(qn("w:val"), "0563C1")
+    underline = OxmlElement("w:u")
+    underline.set(qn("w:val"), "single")
+    props.extend([color, underline])
+    run.append(props)
+    text = OxmlElement("w:t")
+    text.text = url
+    run.append(text)
+    link.append(run)
+    paragraph._p.append(link)
+
+
+def link_line(doc, label, url):
     p = doc.add_paragraph()
     p.add_run(f"{label} : ").bold = True
-    r = p.add_run(placeholder)
-    r.font.highlight_color = WD_COLOR_INDEX.YELLOW
+    hyperlink(p, url)
 
 
 def software_table(doc, extras):
@@ -254,8 +284,9 @@ def record_ex0():
         ("Running the Python program", ["04_python_program.png"]),
     ])
 
-    heading(doc, "Youtube Link:")
-    para(doc, "<YouTube Link>")
+    heading(doc, "Video Link:")
+    link_line(doc, "LinkedIn Post (video)", LINKEDIN[folder])
+    link_line(doc, "GitHub Link", GITHUB + folder)
 
     heading(doc, "Result:")
     para(doc, "Thus, the Ollama LLM runtime was successfully installed, the Qwen 2.5 (0.5B) model "
@@ -753,8 +784,8 @@ def record_ex6():
 
 def implementation(doc, folder, files):
     heading(doc, "Implementation")
-    link_line(doc, "GitHub Link", "<GitHub Link>")
-    link_line(doc, "LinkedIn Post Link", "<LinkedIn Post Link>")
+    link_line(doc, "GitHub Link", GITHUB + folder)
+    link_line(doc, "LinkedIn Post Link", LINKEDIN[folder])
     p = doc.add_paragraph()
     p.add_run("Program:").bold = True
     for name in files:
