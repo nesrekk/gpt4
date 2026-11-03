@@ -7,6 +7,7 @@ if ! command -v ollama >/dev/null; then
   exit 1
 fi
 ollama list >/dev/null 2>&1 || { echo "Start Ollama first: open the Ollama app, or run 'ollama serve' in another terminal."; exit 1; }
+python3 -c "import sys; sys.exit(0 if (3, 11) <= sys.version_info[:2] <= (3, 13) else 1)" || { echo "Python 3.11 to 3.13 is needed (python3 is $(python3 --version))."; exit 1; }
 python3 -m venv .venv
 .venv/bin/pip install --upgrade pip
 .venv/bin/pip install -r requirements.txt

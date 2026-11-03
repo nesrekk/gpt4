@@ -1,12 +1,18 @@
 """Shared helpers: Ollama calls and saving replies (Save module)."""
 import logging
 import os
+import sys
 from datetime import datetime
 
 # Only show real errors from Hugging Face downloads (must be set before the import)
 os.environ.setdefault("HF_HUB_VERBOSITY", "error")
 
 import ollama
+
+# Windows terminals may not use UTF-8, so print characters like ₹ and • safely there too
+for _stream in (sys.stdout, sys.stderr):
+    if hasattr(_stream, "reconfigure"):
+        _stream.reconfigure(encoding="utf-8", errors="replace")
 
 # Hide a harmless macOS-only torch log line printed while importing sentence-transformers
 logging.getLogger("torch.distributed.elastic.multiprocessing.redirects").setLevel(logging.ERROR)

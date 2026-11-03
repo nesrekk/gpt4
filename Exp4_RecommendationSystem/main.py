@@ -1,4 +1,6 @@
 """Part I (Q10) - complete personalized recommendation system with continuous interaction."""
+import os
+
 from explanation_module import display_explanations, explain_recommendations
 from feedback_module import read_feedback, refine_recommendations
 from input_module import read_profile
@@ -73,7 +75,7 @@ def main():
             display_ranking(items)
         elif intent == "SAVE_RECOMMENDATION":
             path = save_recommendations(profile, items, explanations)
-            print("\nRecommendations saved successfully to outputs/" + path.rsplit("/", 1)[-1])
+            print("\nRecommendations saved successfully to outputs/" + os.path.basename(path))
 
 
 if __name__ == "__main__":

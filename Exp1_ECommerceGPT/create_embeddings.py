@@ -4,10 +4,16 @@ import logging
 # Hide a harmless macOS-only torch log line printed while importing transformers
 logging.getLogger("torch.distributed.elastic.multiprocessing.redirects").setLevel(logging.ERROR)
 import os
+import sys
 
 import numpy as np
 import pandas as pd
 from sentence_transformers import SentenceTransformer
+
+# Windows terminals may not use UTF-8, so print characters like ₹ and • safely there too
+for _stream in (sys.stdout, sys.stderr):
+    if hasattr(_stream, "reconfigure"):
+        _stream.reconfigure(encoding="utf-8", errors="replace")
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")

@@ -1,8 +1,14 @@
 """Shared helpers: Ollama calls, formatting and file saving."""
 import os
+import sys
 from datetime import datetime
 
 import ollama
+
+# Windows terminals may not use UTF-8, so print characters like ₹ and • safely there too
+for _stream in (sys.stdout, sys.stderr):
+    if hasattr(_stream, "reconfigure"):
+        _stream.reconfigure(encoding="utf-8", errors="replace")
 
 MODEL = "llama3.2"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))

@@ -1,4 +1,11 @@
+import sys
+
 import ollama
+
+# Windows terminals may not use UTF-8, so print characters like ₹ and • safely there too
+for _stream in (sys.stdout, sys.stderr):
+    if hasattr(_stream, "reconfigure"):
+        _stream.reconfigure(encoding="utf-8", errors="replace")
 
 # Initialize Ollama client
 client = ollama.Client()

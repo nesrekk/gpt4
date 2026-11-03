@@ -1,4 +1,6 @@
 """Part I (Q11) - complete AI blog generator with continuous menu-driven interaction."""
+import os
+
 from blog_module import generate_blog
 from input_module import display_details, read_blog_details
 from intent_module import detect_intent, extract_topic
@@ -98,7 +100,7 @@ def main():
             elif current == "SAVE_BLOG":
                 path = save_blog(details, **state)
                 print("\nBlog Saved Successfully!")
-                print("File : outputs/" + path.rsplit("/", 1)[-1])
+                print("File : outputs/" + os.path.basename(path))
 
 
 if __name__ == "__main__":

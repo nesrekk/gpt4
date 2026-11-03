@@ -1,4 +1,6 @@
 """Part H (Q10) - complete Intelligent Email Assistant with a continuous menu."""
+import os
+
 from input_module import display_email, read_email
 from intent_module import detect_intent
 from reply_module import generate_reply
@@ -78,7 +80,7 @@ def main():
             print(summarize_conversation(email, intent, reply))
         elif choice == "7":
             path = save_reply(email, reply, intent)
-            print("\nReply saved successfully to outputs/" + path.rsplit("/", 1)[-1])
+            print("\nReply saved successfully to outputs/" + os.path.basename(path))
 
 
 if __name__ == "__main__":

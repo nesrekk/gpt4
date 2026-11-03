@@ -4,8 +4,14 @@ The lab sheet says GPT-4; the lab runs offline with Ollama (Llama 3.2) as the lo
 """
 import json
 import os
+import sys
 
 import ollama
+
+# Windows terminals may not use UTF-8, so print characters like ₹ and • safely there too
+for _stream in (sys.stdout, sys.stderr):
+    if hasattr(_stream, "reconfigure"):
+        _stream.reconfigure(encoding="utf-8", errors="replace")
 
 MODEL = "llama3.2"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))

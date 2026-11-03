@@ -17,40 +17,44 @@ Each experiment folder has the program, the data, `architecture.png`, `screensho
 and the generated output files. Lab records (`Records/`) and demo videos (`Videos/`)
 are kept on the original computer and are not in this repository.
 
-## Get it on another computer
+## Windows (lab computer)
 
-You need **Python 3.10+**, **Git** and **Ollama** (https://ollama.com/download).
-Open the Ollama app (or run `ollama serve` in its own terminal), then:
+1. Install **Python 3.12** from https://www.python.org/downloads/ (3.11 or 3.13 also work;
+   tick **"Add python.exe to PATH"**), **Git** from https://git-scm.com/download/win and
+   **Ollama** from https://ollama.com/download. Open the Ollama app once.
+2. In Command Prompt:
+
+   ```bat
+   git clone https://github.com/nesrekk/gpt4.git
+   cd gpt4
+   setup.bat
+   ```
+
+   This makes `.venv`, installs `requirements.txt` and downloads the three models
+   (about 3.4 GB). Exp 1 and Exp 3 also download small Hugging Face models on their first run.
+3. Run an experiment by its number (keep the Ollama app running):
+
+   ```bat
+   run.bat 6
+   ```
+
+   `run.bat 0` ... `run.bat 6`. Or by hand: `cd Exp6_MedicalSymptomAssistant` then
+   `..\.venv\Scripts\python main.py`.
+
+If `import torch` fails with a DLL error, install the Microsoft Visual C++ Redistributable
+(x64) from https://aka.ms/vs/17/release/vc_redist.x64.exe and run `run.bat` again.
+
+## Mac / Linux
 
 ```bash
 git clone https://github.com/nesrekk/gpt4.git
 cd gpt4
-bash setup.sh          # Windows: setup.bat
-```
-
-The setup script makes a `.venv`, installs `requirements.txt` and downloads the three
-models (about 3.4 GB in total). Exp 1 also downloads two small Hugging Face models
-the first time it runs.
-
-## Run
-
-Mac / Linux:
-
-```bash
-cd Exp0_Study_Installation_of_LLM && ../.venv/bin/python qwen_chat.py
-cd Exp1_ECommerceGPT && ../.venv/bin/python create_embeddings.py && ../.venv/bin/python chatbot.py
-cd Exp2_BlogGenerator && ../.venv/bin/python main.py
-cd Exp3_EmailAssistant && ../.venv/bin/python main.py
-cd Exp4_RecommendationSystem && ../.venv/bin/python main.py
-cd Exp5_LegalDocumentAnalyzer && ../.venv/bin/python main.py
+bash setup.sh
 cd Exp6_MedicalSymptomAssistant && ../.venv/bin/python main.py
 ```
 
-Windows (Command Prompt): the same, with `..\.venv\Scripts\python` instead of
-`../.venv/bin/python`, for example `cd Exp6_MedicalSymptomAssistant` then
-`..\.venv\Scripts\python main.py`.
-
-Run each command from the `gpt4` folder (each `cd` goes into one experiment).
+Other experiments: `Exp0` runs `qwen_chat.py`; `Exp1` runs `create_embeddings.py` and then
+`chatbot.py`; `Exp2` to `Exp6` run `main.py`.
 
 `_tools/` holds the helper scripts used to record sessions, render screenshots,
 draw the architecture diagrams, make the demo videos (`make_video.py [numbers]`) and build the records into `Records/`
