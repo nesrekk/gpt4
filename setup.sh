@@ -11,8 +11,10 @@ python3 -c "import sys; sys.exit(0 if (3, 11) <= sys.version_info[:2] <= (3, 13)
 python3 -m venv .venv
 .venv/bin/pip install --upgrade pip
 .venv/bin/pip install -r requirements.txt
-ollama pull qwen2.5:0.5b
-ollama pull qwen2.5:1.5b
-ollama pull llama3.2
+# download only the models that are not on this computer yet
+for m in qwen2.5:0.5b qwen2.5:1.5b llama3.2; do
+  ollama list | grep -qi "^$m" && echo "Model $m is already installed." || ollama pull "$m"
+done
+touch .venv/setup_done.txt
 echo
-echo "Setup done. Example: cd Exp6_MedicalSymptomAssistant && ../.venv/bin/python main.py"
+echo "Setup done. Run: bash start.sh"

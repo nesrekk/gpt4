@@ -17,44 +17,37 @@ Each experiment folder has the program, the data, `architecture.png`, `screensho
 and the generated output files. Lab records (`Records/`) and demo videos (`Videos/`)
 are kept on the original computer and are not in this repository.
 
-## Windows (lab computer)
+## Quick start (Windows)
 
-1. Install **Python 3.12** from https://www.python.org/downloads/ (3.11 or 3.13 also work;
-   tick **"Add python.exe to PATH"**), **Git** from https://git-scm.com/download/win and
-   **Ollama** from https://ollama.com/download. Open the Ollama app once.
-2. In Command Prompt:
+1. Install once, if the computer doesn't have them: **Python 3.12** from
+   https://www.python.org/downloads/ (3.11 or 3.13 also work; tick **"Add python.exe to PATH"**)
+   and **Ollama** from https://ollama.com/download. Open the Ollama app.
+2. On this page click **Code → Download ZIP**, then extract it.
+3. Open the extracted `gpt4-main` folder and double-click **`start.bat`**.
 
-   ```bat
-   git clone https://github.com/nesrekk/gpt4.git
-   cd gpt4
-   setup.bat
-   ```
+The first time, `start.bat` installs the Python packages and downloads any models that are
+missing (needs internet; models already on the computer are not downloaded again). Then it
+shows a menu: type `0`–`6` to run an experiment, `Q` to quit. Next time it goes straight to
+the menu. Keep the Ollama app running.
 
-   This makes `.venv`, installs `requirements.txt` and downloads the three models
-   (about 3.4 GB). Exp 1 and Exp 3 also download small Hugging Face models on their first run.
-3. Run an experiment by its number (keep the Ollama app running):
+Ex 1 and Ex 3 also download small Hugging Face models the first time they run.
 
-   ```bat
-   run.bat 6
-   ```
-
-   `run.bat 0` ... `run.bat 6`. Or by hand: `cd Exp6_MedicalSymptomAssistant` then
-   `..\.venv\Scripts\python main.py`.
+You can also run one experiment directly: `run.bat 6`, or by hand
+`cd Exp6_MedicalSymptomAssistant` then `..\.venv\Scripts\python main.py`.
 
 If `import torch` fails with a DLL error, install the Microsoft Visual C++ Redistributable
-(x64) from https://aka.ms/vs/17/release/vc_redist.x64.exe and run `run.bat` again.
+(x64) from https://aka.ms/vs/17/release/vc_redist.x64.exe and start again.
 
 ## Mac / Linux
 
+Download the ZIP (or `git clone https://github.com/nesrekk/gpt4.git`), open a terminal in the
+folder and run:
+
 ```bash
-git clone https://github.com/nesrekk/gpt4.git
-cd gpt4
-bash setup.sh
-cd Exp6_MedicalSymptomAssistant && ../.venv/bin/python main.py
+bash start.sh
 ```
 
-Other experiments: `Exp0` runs `qwen_chat.py`; `Exp1` runs `create_embeddings.py` and then
-`chatbot.py`; `Exp2` to `Exp6` run `main.py`.
+Same as `start.bat`: it sets up the first time, then shows the experiment menu.
 
 `_tools/` holds the helper scripts used to record sessions, render screenshots,
 draw the architecture diagrams, make the demo videos (`make_video.py [numbers]`) and build the records into `Records/`

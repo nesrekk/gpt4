@@ -1,5 +1,5 @@
 @echo off
-REM One-time setup on a new Windows computer (double-click it, or run: setup.bat)
+REM One-time setup on a new Windows computer (start.bat runs this for you the first time)
 cd /d "%~dp0"
 
 where ollama >nul 2>nul || (
@@ -39,12 +39,13 @@ if not exist .venv\Scripts\python.exe %PY% -m venv .venv
     exit /b 1
 )
 
-ollama pull qwen2.5:0.5b
-ollama pull qwen2.5:1.5b
-ollama pull llama3.2
+REM Download only the models that are not on this computer yet
+for %%m in (qwen2.5:0.5b qwen2.5:1.5b llama3.2) do (
+    ollama list | findstr /i /c:"%%m" >nul && (echo Model %%m is already installed.) || ollama pull %%m
+)
 
 echo.
-echo Setup done. To run an experiment, for example Ex 6:
-echo     cd Exp6_MedicalSymptomAssistant
-echo     ..\.venv\Scripts\python main.py
-pause
+echo done> .venv\setup_done.txt
+echo Setup done. Double-click start.bat (or run: run.bat 6) to run an experiment.
+if /i not "%~1"=="nopause" pause
+exit /b 0
