@@ -1,0 +1,7 @@
+Loading FAQ Module...
+Ask Question : my package hasn't come yet, how can I check it?
+Best Matching FAQ : Where is my parcel?
+Similarity Score 0.61
+
+Chatbot:
+Use the Track Order page with your order ID to check the status of your package.

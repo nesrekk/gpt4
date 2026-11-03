@@ -1,0 +1,156 @@
+[
+ {
+  "out": "01_home_screen.png",
+  "title": "Terminal \u2014 EmailAssistant \u2014 Home Screen",
+  "parts": [
+   [
+    "python main.py",
+    "main.txt",
+    [
+     1,
+     16
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "02_customer_email.png",
+  "title": "Terminal \u2014 EmailAssistant \u2014 Customer Email Input",
+  "parts": [
+   [
+    "",
+    "main.txt",
+    [
+     16,
+     26
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "03_intent_detection.png",
+  "title": "Terminal \u2014 EmailAssistant \u2014 Intent Detection",
+  "parts": [
+   [
+    "",
+    "main.txt",
+    [
+     40,
+     43
+    ]
+   ],
+   [
+    "",
+    "main.txt",
+    [
+     197,
+     200
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "04_similar_email_retrieval.png",
+  "title": "Terminal \u2014 EmailAssistant \u2014 Similar Email Retrieval",
+  "parts": [
+   [
+    "",
+    "main.txt",
+    [
+     57,
+     63
+    ]
+   ],
+   [
+    "",
+    "main.txt",
+    [
+     214,
+     220
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "05_ai_reply.png",
+  "title": "Terminal \u2014 EmailAssistant \u2014 AI Reply Generation",
+  "parts": [
+   [
+    "",
+    "main.txt",
+    [
+     77,
+     86
+    ]
+   ],
+   [
+    "",
+    "main.txt",
+    [
+     234,
+     243
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "06_tone_improvement.png",
+  "title": "Terminal \u2014 EmailAssistant \u2014 Tone Improvement",
+  "parts": [
+   [
+    "",
+    "main.txt",
+    [
+     100,
+     126
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "07_conversation_summary.png",
+  "title": "Terminal \u2014 EmailAssistant \u2014 Conversation Summary",
+  "parts": [
+   [
+    "",
+    "main.txt",
+    [
+     140,
+     143
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "08_saved_reply.png",
+  "title": "Terminal \u2014 EmailAssistant \u2014 Saved Reply",
+  "parts": [
+   [
+    "",
+    "main.txt",
+    [
+     157,
+     159
+    ]
+   ],
+   [
+    "cat outputs/generated_reply.txt",
+    "saved.txt"
+   ]
+  ]
+ },
+ {
+  "out": "09_second_email_and_exit.png",
+  "title": "Terminal \u2014 EmailAssistant \u2014 Second Email (Payment Issue) + Exit",
+  "parts": [
+   [
+    "",
+    "main.txt",
+    [
+     173,
+     276
+    ]
+   ]
+  ]
+ }
+]

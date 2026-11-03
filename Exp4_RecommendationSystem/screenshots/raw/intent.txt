@@ -1,0 +1,18 @@
+Example 1
+User:
+Recommend some AI courses.
+Detected Intent:
+GENERATE_RECOMMENDATION
+
+Example 2
+User:
+Give me more beginner-friendly options.
+Detected Intent:
+REFINE_RECOMMENDATION
+
+Example 3
+User:
+Why did you recommend this course?
+Detected Intent:
+EXPLAIN_RECOMMENDATION
+

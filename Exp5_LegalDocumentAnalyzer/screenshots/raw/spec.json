@@ -1,0 +1,128 @@
+[
+ {
+  "out": "01_home_and_input.png",
+  "title": "Terminal \u2014 LegalDocumentAnalyzer \u2014 Home Screen and Document Input",
+  "parts": [
+   [
+    "python main.py",
+    "nda.txt",
+    [
+     1,
+     39
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "02_complete_analysis_1.png",
+  "title": "Terminal \u2014 LegalDocumentAnalyzer \u2014 Complete Analysis of nda_agreement.txt (1/2)",
+  "parts": [
+   [
+    "",
+    "nda.txt",
+    [
+     41,
+     88
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "03_complete_analysis_2.png",
+  "title": "Terminal \u2014 LegalDocumentAnalyzer \u2014 Complete Analysis of nda_agreement.txt (2/2)",
+  "parts": [
+   [
+    "",
+    "nda.txt",
+    [
+     90,
+     144
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "04_clause_analysis_1.png",
+  "title": "Terminal \u2014 LegalDocumentAnalyzer \u2014 Clause Analysis of service_agreement.pdf (1/2)",
+  "parts": [
+   [
+    "python main.py",
+    "service.txt",
+    [
+     11,
+     56
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "04_clause_analysis_2.png",
+  "title": "Terminal \u2014 LegalDocumentAnalyzer \u2014 Clause Analysis of service_agreement.pdf (2/2)",
+  "parts": [
+   [
+    "",
+    "service.txt",
+    [
+     58,
+     108
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "05_obligation_analysis_1.png",
+  "title": "Terminal \u2014 LegalDocumentAnalyzer \u2014 Obligation Analysis of service_agreement.pdf (1/2)",
+  "parts": [
+   [
+    "",
+    "service.txt",
+    [
+     111,
+     157
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "05_obligation_analysis_2.png",
+  "title": "Terminal \u2014 LegalDocumentAnalyzer \u2014 Obligation Analysis of service_agreement.pdf (2/2)",
+  "parts": [
+   [
+    "",
+    "service.txt",
+    [
+     159,
+     186
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "06_summary_pasted_text.png",
+  "title": "Terminal \u2014 LegalDocumentAnalyzer \u2014 Summary Analysis of Pasted Legal Text",
+  "parts": [
+   [
+    "python main.py",
+    "paste.txt",
+    [
+     10,
+     67
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "07_saved_analysis.png",
+  "title": "Terminal \u2014 LegalDocumentAnalyzer \u2014 Saved Analysis Reports",
+  "parts": [
+   [
+    "ls outputs",
+    "ls_outputs.txt"
+   ],
+   [
+    "head -30 outputs/service_agreement_obligation_analysis.txt",
+    "saved_head.txt"
+   ]
+  ]
+ }
+]

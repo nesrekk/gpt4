@@ -1,0 +1,75 @@
+MUTUAL NON-DISCLOSURE AGREEMENT
+
+This Mutual Non-Disclosure Agreement ("Agreement") is entered into on 1 August 2026 ("Effective Date")
+by and between:
+
+BrightPath Technologies Private Limited, a company incorporated under the Companies Act, 2013,
+having its registered office at 14 Race Course Road, Coimbatore 641018, Tamil Nadu ("BrightPath"); and
+
+Nila Analytics LLP, a limited liability partnership having its office at 22 Anna Salai,
+Chennai 600002, Tamil Nadu ("Nila Analytics").
+
+BrightPath and Nila Analytics are each referred to as a "Party" and together as the "Parties".
+
+1. PURPOSE
+The Parties wish to explore a possible collaboration to build an AI-based demand forecasting
+platform for retail clients (the "Purpose"). In connection with the Purpose, each Party may
+disclose Confidential Information to the other Party.
+
+2. CONFIDENTIAL INFORMATION
+"Confidential Information" means any business, technical or financial information disclosed by
+one Party (the "Disclosing Party") to the other Party (the "Receiving Party"), including source
+code, datasets, customer lists, pricing, product roadmaps and trade secrets, whether disclosed
+orally, in writing or electronically, and whether or not marked as confidential.
+
+3. EXCLUSIONS
+Confidential Information does not include information that (a) is or becomes publicly available
+without breach of this Agreement; (b) was lawfully known to the Receiving Party before disclosure;
+(c) is independently developed by the Receiving Party without use of the Confidential Information;
+or (d) is received from a third party without a duty of confidentiality.
+
+4. OBLIGATIONS OF THE RECEIVING PARTY
+The Receiving Party shall:
+(a) use the Confidential Information only for the Purpose;
+(b) not disclose the Confidential Information to any third party without the prior written consent
+    of the Disclosing Party, except to its employees and advisers who need to know it for the
+    Purpose and who are bound by confidentiality obligations at least as strict as this Agreement;
+(c) protect the Confidential Information with at least the same degree of care it uses for its own
+    confidential information, and in no event less than reasonable care;
+(d) promptly notify the Disclosing Party in writing, and in any case within 48 hours, of any
+    unauthorised use or disclosure of Confidential Information.
+
+5. RETURN OF INFORMATION
+Within 15 days of a written request by the Disclosing Party, or on termination of this Agreement,
+the Receiving Party shall return or destroy all Confidential Information and certify the same in
+writing.
+
+6. TERM AND TERMINATION
+This Agreement shall remain in force for a period of two (2) years from the Effective Date.
+Either Party may terminate this Agreement by giving thirty (30) days' prior written notice to the
+other Party. The confidentiality obligations in Clause 4 shall survive for three (3) years after
+the expiry or termination of this Agreement.
+
+7. NO LICENCE
+Nothing in this Agreement grants either Party any licence or right in the other Party's
+intellectual property, except the limited right to use Confidential Information for the Purpose.
+
+8. REMEDIES
+The Parties agree that a breach of this Agreement may cause irreparable harm, and the Disclosing
+Party shall be entitled to seek injunctive relief in addition to any other remedies available
+under law. The breaching Party shall pay liquidated damages of INR 5,00,000 (Rupees Five Lakh) for
+each proven unauthorised disclosure.
+
+9. GOVERNING LAW AND JURISDICTION
+This Agreement shall be governed by the laws of India. The courts at Coimbatore, Tamil Nadu shall
+have exclusive jurisdiction over any dispute arising out of this Agreement.
+
+10. ENTIRE AGREEMENT
+This Agreement is the entire agreement between the Parties on its subject matter and may be amended
+only in writing signed by both Parties.
+
+IN WITNESS WHEREOF, the Parties have signed this Agreement on the Effective Date.
+
+For BrightPath Technologies Private Limited        For Nila Analytics LLP
+Name: Meera Raghavan                               Name: Karthik Subramanian
+Designation: Director                              Designation: Designated Partner

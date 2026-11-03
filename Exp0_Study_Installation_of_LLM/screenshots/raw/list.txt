@@ -1,0 +1,4 @@
+NAME               ID              SIZE      MODIFIED       
+qwen2.5:1.5b       65ec06548149    986 MB    31 minutes ago    
+llama3.2:latest    a80c4f17acd5    2.0 GB    38 minutes ago    
+qwen2.5:0.5b       a8b0c5157701    397 MB    39 minutes ago    

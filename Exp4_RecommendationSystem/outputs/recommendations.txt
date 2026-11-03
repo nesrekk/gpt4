@@ -1,0 +1,21 @@
+Personalized Recommendations for Arun
+Generated on : 24-10-2026 16:04
+Interests    : Artificial Intelligence, Python
+Skill Level  : Beginner
+Goal         : Learn AI
+============================================================
+1. Getting Started with AI (Google on Coursera)  (Score: 95%)
+   Reason: A beginner-friendly course that introduces the basics of artificial intelligence and machine learning
+
+2. Introduction to Artificial Intelligence (University of Toronto on Coursera)  (Score: 92%)
+   Reason: A beginner-friendly course that introduces the basics of artificial intelligence
+
+3. Machine Learning Specialization (Coursera)  (Score: 90%)
+   Reason: A comprehensive specialization in machine learning with a focus on practical learning
+
+4. Practical AI (Microsoft Learn)  (Score: 88%)
+   Reason: A practical course that teaches AI concepts through hands-on projects
+
+5. AI for Beginners (Udemy)  (Score: 85%)
+   Reason: A beginner-friendly course that introduces the basics of artificial intelligence
+

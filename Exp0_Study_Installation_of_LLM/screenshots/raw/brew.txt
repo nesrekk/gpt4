@@ -1,0 +1,4 @@
+==> ollama: stable 0.40.10 (bottled), HEAD
+Create, run, and share large language models (LLMs)
+https://ollama.com/
+==> ollama is installed and ready (ollama 0.40.10)

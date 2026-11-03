@@ -1,0 +1,193 @@
+
+==================================================
+   PERSONALIZED RECOMMENDATION SYSTEM (Ollama)
+==================================================
+ Ask in your own words, for example:
+  - Recommend some AI courses.
+  - I prefer AI and don't want Web Development.
+  - Why did you recommend these?
+  - Show my profile
+  - Save the recommendations
+  - Exit
+==================================================
+Enter your profile details
+Name : Arun
+Age : 20
+Background (education / profession) : Computer Science
+Interests : Artificial Intelligence, Python
+Skill Level : Beginner
+Preferred Category (courses / books / projects ...) : Online courses
+Preference : Practical learning
+Goal : Learn AI
+No. of Items : 5
+
+USER PROFILE
+--------------------------------------------
+Name               : Arun
+Age                : 20
+Background         : Computer Science
+Interests          : Artificial Intelligence, Python
+Skill Level        : Beginner
+Preferred Category : Online courses
+Preference         : Practical learning
+Goal               : Learn AI
+No. of Items       : 5
+
+Preference Analysis
+------------------------------
+Primary Interest   : Artificial Intelligence
+Secondary Interest : Python
+Skill Level        : Beginner
+Goal               : Learn AI
+Preference         : Practical learning
+Constraints        : Beginner, Practical learning, Online courses
+
+What would you like to do? : Recommend some AI courses.
+Detected Intent : GENERATE_RECOMMENDATION
+
+Generated Prompt
+--------------------------------------------
+You are a personalized recommendation assistant.
+
+User:
+Name: Arun
+Age: 20
+Background: Computer Science
+Interests: Artificial Intelligence, Python
+Skill Level: Beginner
+Preferred Category: Online courses
+Goal: Learn AI
+Preference: Practical learning
+Constraints: Beginner, Practical learning, Online courses
+
+Recommend 5 suitable Online courses.
+For each recommendation provide:
+1. Name
+2. Reason
+3. Suitability score
+
+Generating recommendations...
+
+PERSONALIZED RECOMMENDATIONS
+--------------------------------------------
+1. Deep Learning (Stanford University on Stanford Online)
+   Score: 95%
+   Reason:
+   This course provides an introduction to deep learning, a fundamental aspect of AI, with a focus on practical examples and projects.
+2. Introduction to Artificial Intelligence (edX)
+   Score: 92%
+   Reason:
+   This course provides a comprehensive introduction to AI, covering topics from machine learning to natural language processing, with a strong focus on practical applications.
+3. Python for Data Science and Machine Learning (DataCamp)
+   Score: 90%
+   Reason:
+   This course focuses on practical Python skills for data science and machine learning, ideal for beginners looking to apply AI concepts.
+4. Practical Machine Learning (DataCamp)
+   Score: 88%
+   Reason:
+   This course teaches practical machine learning skills using Python, focusing on hands-on projects and real-world applications.
+5. AI for Everyone (Microsoft Virtual Academy)
+   Score: 85%
+   Reason:
+   A beginner-friendly course covering the basics of AI, taught by Dr. Yann LeCun, a renowned AI researcher.
+
+Recommendation Ranking
+
+Rank | Recommendation                                          | Score
+------------------------------------------------------------------------
+1    | Deep Learning (Stanford University on Stanford Online)  | 95%
+2    | Introduction to Artificial Intelligence (edX)           | 92%
+3    | Python for Data Science and Machine Learning (DataCamp) | 90%
+4    | Practical Machine Learning (DataCamp)                   | 88%
+5    | AI for Everyone (Microsoft Virtual Academy)             | 85%
+
+What would you like to do? : Why did you recommend these?
+Detected Intent : EXPLAIN_RECOMMENDATION
+
+RECOMMENDATION EXPLANATION
+--------------------------------------------
+1. Deep Learning (Stanford University on Stanford Online)
+   This course suits Arun because it aligns with his interest in Artificial Intelligence, and as a beginner, he can learn the fundamentals of deep learning through practical exercises and projects. By taking this course, Arun can gain hands-on experience with deep learning techniques and build a strong foundation for his AI learning journey.
+2. Introduction to Artificial Intelligence (edX)
+   This course is a great fit for Arun as it provides an overview of AI concepts, which will help him build a solid understanding of the field. As a beginner, Arun can learn the basics of AI and its applications, setting him up for more advanced learning in the future.
+3. Python for Data Science and Machine Learning (DataCamp)
+   Arun can benefit from this course as it focuses on Python programming, a skill he already has, and introduces him to data science and machine learning concepts. By mastering Python, Arun can accelerate his learning of AI and apply his skills to real-world projects.
+4. Practical Machine Learning (DataCamp)
+   This course is suitable for Arun because it provides hands-on experience with machine learning, allowing him to apply theoretical concepts to practical problems. As a beginner, Arun can learn by doing and develop his skills in machine learning through interactive exercises and projects.
+5. AI for Everyone (Microsoft Virtual Academy)
+   Arun can benefit from this course as it offers a comprehensive introduction to AI, covering its basics, applications, and future prospects. As a beginner, Arun can gain a broad understanding of AI and its potential impact, setting him up for more specialized learning in the future.
+
+What would you like to do? : Refine the list
+Detected Intent : REFINE_RECOMMENDATION
+
+Which recommendations are useful?
+Your feedback : I prefer Artificial Intelligence and do not want Web Development resources. Give me more beginner-friendly options.
+
+Refining recommendations using your feedback...
+
+REFINED RECOMMENDATIONS
+--------------------------------------------
+1. Getting Started with AI (Google on Coursera)
+   Score: 95%
+   Reason:
+   A beginner-friendly course that introduces the basics of artificial intelligence and machine learning
+2. Introduction to Artificial Intelligence (University of Toronto on Coursera)
+   Score: 92%
+   Reason:
+   A beginner-friendly course that introduces the basics of artificial intelligence
+3. Machine Learning Specialization (Coursera)
+   Score: 90%
+   Reason:
+   A comprehensive specialization in machine learning with a focus on practical learning
+4. Practical AI (Microsoft Learn)
+   Score: 88%
+   Reason:
+   A practical course that teaches AI concepts through hands-on projects
+5. AI for Beginners (Udemy)
+   Score: 85%
+   Reason:
+   A beginner-friendly course that introduces the basics of artificial intelligence
+
+Recommendation Ranking
+
+Rank | Recommendation                                                              | Score
+--------------------------------------------------------------------------------------------
+1    | Getting Started with AI (Google on Coursera)                                | 95%
+2    | Introduction to Artificial Intelligence (University of Toronto on Coursera) | 92%
+3    | Machine Learning Specialization (Coursera)                                  | 90%
+4    | Practical AI (Microsoft Learn)                                              | 88%
+5    | AI for Beginners (Udemy)                                                    | 85%
+
+What would you like to do? : Show my profile
+Detected Intent : SHOW_PROFILE
+
+USER PROFILE
+--------------------------------------------
+Name               : Arun
+Age                : 20
+Background         : Computer Science
+Interests          : Artificial Intelligence, Python
+Skill Level        : Beginner
+Preferred Category : Online courses
+Preference         : Practical learning
+Goal               : Learn AI
+No. of Items       : 5
+
+Preference Analysis
+------------------------------
+Primary Interest   : Artificial Intelligence
+Secondary Interest : Python
+Skill Level        : Beginner
+Goal               : Learn AI
+Preference         : Practical learning
+Constraints        : Beginner, Practical learning, Online courses
+
+What would you like to do? : Save the recommendations
+Detected Intent : SAVE_RECOMMENDATION
+
+Recommendations saved successfully to outputs/recommendations.txt
+
+What would you like to do? : Exit
+Detected Intent : EXIT
+
+Thank you for using the Personalized Recommendation System. Goodbye!

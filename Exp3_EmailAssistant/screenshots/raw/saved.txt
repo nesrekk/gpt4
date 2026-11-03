@@ -1,0 +1,32 @@
+============================================================
+Date           : 24-10-2026 15:49
+Customer Name  : John
+Subject        : Delivery Delay
+Intent         : Delivery Issue
+Customer Email :
+My order has not arrived. It was supposed to be delivered three days ago and the tracking page still shows it is in transit.
+
+Generated Reply:
+Dear John,
+
+We sincerely apologize for the delay in your delivery. Our logistics team is actively working to resolve the issue and will provide an update on the status of your shipment within 24 hours. We appreciate your patience and understanding in this matter. We will keep you informed of any further developments.
+
+Regards,
+Support Team
+
+============================================================
+Date           : 24-10-2026 15:49
+Customer Name  : Priya
+Subject        : Money deducted twice
+Intent         : Payment Issue
+Customer Email :
+I paid for my headphones yesterday but the amount was debited two times from my bank account. Please help.
+
+Generated Reply:
+Dear Priya,
+
+We have initiated an investigation into the issue you've reported. If the amount was deducted from your bank account, it will be reversed automatically within 48 hours. Please allow some time for the process to complete. If you have any further concerns, please don't hesitate to reach out.
+
+Regards,
+Support Team
+

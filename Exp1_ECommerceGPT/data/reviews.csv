@@ -1,0 +1,200 @@
+ReviewID,ProductID,ProductName,Review,Rating
+1,1,Lenovo Laptop 1,Not worth the price,3
+2,1,Lenovo Laptop 1,Works perfectly,5
+3,1,Lenovo Laptop 1,Very good quality,4
+4,1,Lenovo Laptop 1,Excellent product,5
+5,1,Lenovo Laptop 1,Very good quality,5
+6,1,Lenovo Laptop 1,Average quality,3
+7,1,Lenovo Laptop 1,Worth the money,5
+8,1,Lenovo Laptop 1,Very good quality,4
+9,1,Lenovo Laptop 1,Highly recommended,5
+10,1,Lenovo Laptop 1,Poor battery,2
+11,2,Lenovo Laptop 2,Highly recommended,5
+12,2,Lenovo Laptop 2,Highly recommended,5
+13,2,Lenovo Laptop 2,Works perfectly,4
+14,2,Lenovo Laptop 2,Disappointing purchase,3
+15,2,Lenovo Laptop 2,Very good quality,5
+16,2,Lenovo Laptop 2,Not worth the price,3
+17,2,Lenovo Laptop 2,Highly recommended,5
+18,2,Lenovo Laptop 2,Excellent product,4
+19,2,Lenovo Laptop 2,Excellent product,4
+20,2,Lenovo Laptop 2,Works perfectly,5
+21,3,Lenovo Laptop 3,Worth the money,5
+22,3,Lenovo Laptop 3,Highly recommended,4
+23,3,Lenovo Laptop 3,Works perfectly,5
+24,3,Lenovo Laptop 3,Very good quality,4
+25,3,Lenovo Laptop 3,Works perfectly,4
+26,3,Lenovo Laptop 3,Highly recommended,4
+27,3,Lenovo Laptop 3,Works perfectly,5
+28,3,Lenovo Laptop 3,Works perfectly,4
+29,3,Lenovo Laptop 3,Stopped working soon,3
+30,3,Lenovo Laptop 3,Poor battery,3
+31,4,Lenovo Laptop 4,Excellent product,4
+32,4,Lenovo Laptop 4,Very good quality,5
+33,4,Lenovo Laptop 4,Works perfectly,4
+34,4,Lenovo Laptop 4,Average quality,2
+35,4,Lenovo Laptop 4,Worth the money,5
+36,4,Lenovo Laptop 4,Works perfectly,5
+37,4,Lenovo Laptop 4,Disappointing purchase,3
+38,4,Lenovo Laptop 4,Not worth the price,2
+39,4,Lenovo Laptop 4,Worth the money,4
+40,4,Lenovo Laptop 4,Excellent product,4
+41,5,Lenovo Laptop 5,Excellent product,4
+42,5,Lenovo Laptop 5,Worth the money,5
+43,5,Lenovo Laptop 5,Works perfectly,4
+44,5,Lenovo Laptop 5,Works perfectly,5
+45,5,Lenovo Laptop 5,Works perfectly,5
+46,5,Lenovo Laptop 5,Disappointing purchase,2
+47,5,Lenovo Laptop 5,Stopped working soon,3
+48,5,Lenovo Laptop 5,Works perfectly,5
+49,5,Lenovo Laptop 5,Very good quality,4
+50,5,Lenovo Laptop 5,Highly recommended,5
+51,6,HP Laptop 1,Works perfectly,5
+52,6,HP Laptop 1,Very good quality,5
+53,6,HP Laptop 1,Highly recommended,4
+54,6,HP Laptop 1,Worth the money,5
+55,6,HP Laptop 1,Not worth the price,1
+56,6,HP Laptop 1,Excellent product,5
+57,6,HP Laptop 1,Highly recommended,4
+58,6,HP Laptop 1,Worth the money,4
+59,6,HP Laptop 1,Not worth the price,1
+60,6,HP Laptop 1,Works perfectly,4
+61,7,HP Laptop 2,Average quality,1
+62,7,HP Laptop 2,Excellent product,5
+63,7,HP Laptop 2,Highly recommended,4
+64,7,HP Laptop 2,Excellent product,5
+65,7,HP Laptop 2,Works perfectly,5
+66,7,HP Laptop 2,Excellent product,5
+67,7,HP Laptop 2,Highly recommended,4
+68,7,HP Laptop 2,Disappointing purchase,2
+69,7,HP Laptop 2,Works perfectly,4
+70,7,HP Laptop 2,Stopped working soon,1
+71,8,HP Laptop 3,Works perfectly,4
+72,8,HP Laptop 3,Average quality,3
+73,8,HP Laptop 3,Very good quality,4
+74,8,HP Laptop 3,Highly recommended,4
+75,8,HP Laptop 3,Excellent product,5
+76,8,HP Laptop 3,Worth the money,4
+77,8,HP Laptop 3,Poor battery,2
+78,8,HP Laptop 3,Very good quality,4
+79,8,HP Laptop 3,Works perfectly,4
+80,8,HP Laptop 3,Excellent product,5
+81,9,HP Laptop 4,Highly recommended,4
+82,9,HP Laptop 4,Excellent product,4
+83,9,HP Laptop 4,Excellent product,5
+84,9,HP Laptop 4,Average quality,1
+85,9,HP Laptop 4,Very good quality,4
+86,9,HP Laptop 4,Very good quality,5
+87,9,HP Laptop 4,Average quality,1
+88,9,HP Laptop 4,Works perfectly,5
+89,9,HP Laptop 4,Excellent product,5
+90,9,HP Laptop 4,Very good quality,5
+91,10,HP Laptop 5,Very good quality,5
+92,10,HP Laptop 5,Very good quality,4
+93,10,HP Laptop 5,Very good quality,4
+94,10,HP Laptop 5,Worth the money,4
+95,10,HP Laptop 5,Excellent product,4
+96,10,HP Laptop 5,Very good quality,5
+97,10,HP Laptop 5,Average quality,2
+98,10,HP Laptop 5,Average quality,3
+99,10,HP Laptop 5,Very good quality,5
+100,10,HP Laptop 5,Works perfectly,4
+101,11,Dell Laptop 1,Works perfectly,4
+102,11,Dell Laptop 1,Stopped working soon,2
+103,11,Dell Laptop 1,Excellent product,5
+104,11,Dell Laptop 1,Worth the money,4
+105,11,Dell Laptop 1,Disappointing purchase,2
+106,11,Dell Laptop 1,Excellent product,5
+107,11,Dell Laptop 1,Works perfectly,5
+108,11,Dell Laptop 1,Worth the money,5
+109,11,Dell Laptop 1,Highly recommended,5
+110,11,Dell Laptop 1,Highly recommended,4
+111,12,Dell Laptop 2,Worth the money,5
+112,12,Dell Laptop 2,Works perfectly,5
+113,12,Dell Laptop 2,Worth the money,5
+114,12,Dell Laptop 2,Average quality,3
+115,12,Dell Laptop 2,Very good quality,4
+116,12,Dell Laptop 2,Poor battery,3
+117,12,Dell Laptop 2,Works perfectly,4
+118,12,Dell Laptop 2,Worth the money,5
+119,12,Dell Laptop 2,Works perfectly,4
+120,12,Dell Laptop 2,Highly recommended,4
+121,13,Dell Laptop 3,Disappointing purchase,3
+122,13,Dell Laptop 3,Excellent product,4
+123,13,Dell Laptop 3,Works perfectly,4
+124,13,Dell Laptop 3,Excellent product,5
+125,13,Dell Laptop 3,Not worth the price,2
+126,13,Dell Laptop 3,Worth the money,4
+127,13,Dell Laptop 3,Excellent product,4
+128,13,Dell Laptop 3,Not worth the price,2
+129,13,Dell Laptop 3,Average quality,1
+130,13,Dell Laptop 3,Disappointing purchase,1
+131,14,Dell Laptop 4,Very good quality,5
+132,14,Dell Laptop 4,Disappointing purchase,1
+133,14,Dell Laptop 4,Stopped working soon,2
+134,14,Dell Laptop 4,Not worth the price,2
+135,14,Dell Laptop 4,Very good quality,4
+136,14,Dell Laptop 4,Very good quality,4
+137,14,Dell Laptop 4,Worth the money,4
+138,14,Dell Laptop 4,Highly recommended,5
+139,14,Dell Laptop 4,Very good quality,5
+140,14,Dell Laptop 4,Works perfectly,5
+141,15,Dell Laptop 5,Stopped working soon,2
+142,15,Dell Laptop 5,Worth the money,5
+143,15,Dell Laptop 5,Very good quality,4
+144,15,Dell Laptop 5,Works perfectly,4
+145,15,Dell Laptop 5,Worth the money,4
+146,15,Dell Laptop 5,Worth the money,4
+147,15,Dell Laptop 5,Highly recommended,5
+148,15,Dell Laptop 5,Disappointing purchase,3
+149,15,Dell Laptop 5,Poor battery,1
+150,15,Dell Laptop 5,Works perfectly,4
+151,16,ASUS Laptop 1,Highly recommended,4
+152,16,ASUS Laptop 1,Highly recommended,4
+153,16,ASUS Laptop 1,Stopped working soon,3
+154,16,ASUS Laptop 1,Disappointing purchase,1
+155,16,ASUS Laptop 1,Highly recommended,5
+156,16,ASUS Laptop 1,Worth the money,4
+157,16,ASUS Laptop 1,Poor battery,1
+158,16,ASUS Laptop 1,Poor battery,3
+159,16,ASUS Laptop 1,Stopped working soon,1
+160,16,ASUS Laptop 1,Stopped working soon,3
+161,17,ASUS Laptop 2,Works perfectly,4
+162,17,ASUS Laptop 2,Works perfectly,4
+163,17,ASUS Laptop 2,Highly recommended,5
+164,17,ASUS Laptop 2,Highly recommended,5
+165,17,ASUS Laptop 2,Highly recommended,4
+166,17,ASUS Laptop 2,Stopped working soon,1
+167,17,ASUS Laptop 2,Worth the money,5
+168,17,ASUS Laptop 2,Poor battery,2
+169,17,ASUS Laptop 2,Very good quality,4
+170,17,ASUS Laptop 2,Average quality,1
+171,18,ASUS Laptop 3,Excellent product,5
+172,18,ASUS Laptop 3,Excellent product,5
+173,18,ASUS Laptop 3,Very good quality,5
+174,18,ASUS Laptop 3,Poor battery,3
+175,18,ASUS Laptop 3,Not worth the price,2
+176,18,ASUS Laptop 3,Highly recommended,4
+177,18,ASUS Laptop 3,Works perfectly,5
+178,18,ASUS Laptop 3,Worth the money,5
+179,18,ASUS Laptop 3,Poor battery,1
+180,18,ASUS Laptop 3,Excellent product,5
+181,19,ASUS Laptop 4,Stopped working soon,1
+182,19,ASUS Laptop 4,Not worth the price,2
+183,19,ASUS Laptop 4,Highly recommended,5
+184,19,ASUS Laptop 4,Works perfectly,5
+185,19,ASUS Laptop 4,Highly recommended,4
+186,19,ASUS Laptop 4,Worth the money,5
+187,19,ASUS Laptop 4,Worth the money,4
+188,19,ASUS Laptop 4,Highly recommended,4
+189,19,ASUS Laptop 4,Worth the money,5
+190,19,ASUS Laptop 4,Worth the money,5
+191,20,ASUS Laptop 5,Works perfectly,5
+192,20,ASUS Laptop 5,Average quality,3
+193,20,ASUS Laptop 5,Not worth the price,1
+194,20,ASUS Laptop 5,Average quality,1
+195,20,ASUS Laptop 5,Excellent product,4
+196,20,ASUS Laptop 5,Works perfectly,5
+197,20,ASUS Laptop 5,Highly recommended,5
+198,20,ASUS Laptop 5,Disappointing purchase,2
+199,20,ASUS Laptop 5,Highly recommended,5

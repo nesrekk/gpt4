@@ -1,0 +1,156 @@
+[
+ {
+  "out": "01_home_screen.png",
+  "title": "Terminal \u2014 BlogGenerator \u2014 Home Screen",
+  "parts": [
+   [
+    "python main.py",
+    "main.txt",
+    [
+     1,
+     17
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "02_user_input.png",
+  "title": "Terminal \u2014 BlogGenerator \u2014 User Input",
+  "parts": [
+   [
+    "",
+    "main.txt",
+    [
+     17,
+     30
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "03_blog_generation.png",
+  "title": "Terminal \u2014 BlogGenerator \u2014 Blog Generation (Llama 3.2)",
+  "parts": [
+   [
+    "",
+    "main.txt",
+    [
+     47,
+     68
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "04_blog_titles.png",
+  "title": "Terminal \u2014 BlogGenerator \u2014 Blog Title Generation",
+  "parts": [
+   [
+    "",
+    "main.txt",
+    [
+     85,
+     92
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "05_seo_keywords.png",
+  "title": "Terminal \u2014 BlogGenerator \u2014 SEO Keywords",
+  "parts": [
+   [
+    "",
+    "main.txt",
+    [
+     109,
+     119
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "06_summary.png",
+  "title": "Terminal \u2014 BlogGenerator \u2014 Summary Generation",
+  "parts": [
+   [
+    "",
+    "main.txt",
+    [
+     136,
+     140
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "07_meta_description.png",
+  "title": "Terminal \u2014 BlogGenerator \u2014 Meta Description",
+  "parts": [
+   [
+    "",
+    "main.txt",
+    [
+     157,
+     161
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "08_blog_saved.png",
+  "title": "Terminal \u2014 BlogGenerator \u2014 Blog Saved Successfully",
+  "parts": [
+   [
+    "",
+    "main.txt",
+    [
+     178,
+     181
+    ]
+   ],
+   [
+    "cat outputs/generated_blog.txt | head -12",
+    "saved_head.txt"
+   ]
+  ]
+ },
+ {
+  "out": "09_intent_detection.png",
+  "title": "Terminal \u2014 BlogGenerator \u2014 Intent Detection",
+  "parts": [
+   [
+    "python intent_module.py",
+    "intent.txt"
+   ]
+  ]
+ },
+ {
+  "out": "10_intent_in_app_blog.png",
+  "title": "Terminal \u2014 BlogGenerator \u2014 Natural-language request (intent routing)",
+  "parts": [
+   [
+    "",
+    "main.txt",
+    [
+     198,
+     227
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "11_intent_in_app_summary_keywords.png",
+  "title": "Terminal \u2014 BlogGenerator \u2014 Natural-language requests + Exit",
+  "parts": [
+   [
+    "",
+    "main.txt",
+    [
+     244,
+     301
+    ]
+   ]
+  ]
+ }
+]

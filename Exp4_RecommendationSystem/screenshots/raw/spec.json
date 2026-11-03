@@ -1,0 +1,178 @@
+[
+ {
+  "out": "01_home_screen.png",
+  "title": "Terminal \u2014 RecommendationSystem \u2014 Home Screen",
+  "parts": [
+   [
+    "python main.py",
+    "main.txt",
+    [
+     1,
+     12
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "02_user_profile_input.png",
+  "title": "Terminal \u2014 RecommendationSystem \u2014 User Profile Input",
+  "parts": [
+   [
+    "",
+    "main.txt",
+    [
+     13,
+     22
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "03_collected_user_profile.png",
+  "title": "Terminal \u2014 RecommendationSystem \u2014 Collected User Profile",
+  "parts": [
+   [
+    "",
+    "main.txt",
+    [
+     24,
+     34
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "04_preference_analysis.png",
+  "title": "Terminal \u2014 RecommendationSystem \u2014 Preference Analysis",
+  "parts": [
+   [
+    "",
+    "main.txt",
+    [
+     36,
+     43
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "05_prompt_generation.png",
+  "title": "Terminal \u2014 RecommendationSystem \u2014 Prompt Generation",
+  "parts": [
+   [
+    "",
+    "main.txt",
+    [
+     45,
+     67
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "06_recommendations.png",
+  "title": "Terminal \u2014 RecommendationSystem \u2014 Personalized Recommendations (Ollama / Llama 3.2)",
+  "parts": [
+   [
+    "",
+    "main.txt",
+    [
+     68,
+     93
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "07_recommendation_ranking.png",
+  "title": "Terminal \u2014 RecommendationSystem \u2014 Recommendation Ranking",
+  "parts": [
+   [
+    "",
+    "main.txt",
+    [
+     94,
+     102
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "08_recommendation_explanation.png",
+  "title": "Terminal \u2014 RecommendationSystem \u2014 Recommendation Explanation",
+  "parts": [
+   [
+    "",
+    "main.txt",
+    [
+     104,
+     118
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "09_user_feedback.png",
+  "title": "Terminal \u2014 RecommendationSystem \u2014 User Feedback",
+  "parts": [
+   [
+    "",
+    "main.txt",
+    [
+     120,
+     126
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "10_refined_recommendations.png",
+  "title": "Terminal \u2014 RecommendationSystem \u2014 Refined Recommendations",
+  "parts": [
+   [
+    "",
+    "main.txt",
+    [
+     128,
+     159
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "11_intent_detection.png",
+  "title": "Terminal \u2014 RecommendationSystem \u2014 Intent Detection",
+  "parts": [
+   [
+    "python intent_module.py",
+    "intent.txt"
+   ],
+   [
+    "",
+    "main.txt",
+    [
+     161,
+     162
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "12_recommendation_saved.png",
+  "title": "Terminal \u2014 RecommendationSystem \u2014 Recommendation Saved Successfully",
+  "parts": [
+   [
+    "",
+    "main.txt",
+    [
+     185,
+     194
+    ]
+   ],
+   [
+    "head -12 outputs/recommendations.txt",
+    "saved_head.txt"
+   ]
+  ]
+ }
+]

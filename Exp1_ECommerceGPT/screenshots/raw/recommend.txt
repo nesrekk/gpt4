@@ -1,0 +1,16 @@
+Search Product :
+Recommend a gaming laptop
+
+Retrieved Products
+ASUS Laptop 3
+HP Laptop 4
+Dell Laptop 1
+
+GPT Response
+Among the retrieved products, I recommend
+Dell Laptop 1.
+Brand : Dell
+Price : ₹80,726
+Rating : 4.8
+Reason:
+Dell Laptop 1 is the best choice as it offers quality performance and a high rating, making it suitable for gaming as well as everyday use.

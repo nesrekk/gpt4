@@ -1,0 +1,108 @@
+[
+ {
+  "out": "01_home_and_input.png",
+  "title": "Terminal \u2014 MedicalSymptomAssistant \u2014 Home Screen and User Input",
+  "parts": [
+   [
+    "python main.py",
+    "session.txt",
+    [
+     1,
+     21
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "02_analysis.png",
+  "title": "Terminal \u2014 MedicalSymptomAssistant \u2014 Symptom Analysis, Triage and Follow-up Questions",
+  "parts": [
+   [
+    "",
+    "session.txt",
+    [
+     23,
+     91
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "03_follow_up_answers.png",
+  "title": "Terminal \u2014 MedicalSymptomAssistant \u2014 Answering Follow-up Questions",
+  "parts": [
+   [
+    "",
+    "session.txt",
+    [
+     93,
+     105
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "04_refined_analysis.png",
+  "title": "Terminal \u2014 MedicalSymptomAssistant \u2014 Refined Analysis",
+  "parts": [
+   [
+    "",
+    "session.txt",
+    [
+     107,
+     176
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "05_report_saved.png",
+  "title": "Terminal \u2014 MedicalSymptomAssistant \u2014 Report Saved Successfully",
+  "parts": [
+   [
+    "",
+    "session.txt",
+    [
+     178,
+     183
+    ]
+   ],
+   [
+    "ls reports",
+    "ls_reports.txt"
+   ],
+   [
+    "head -c 1400 reports/symptom_report_*.json",
+    "json_head.txt"
+   ]
+  ]
+ },
+ {
+  "out": "06_emergency_input.png",
+  "title": "Terminal \u2014 MedicalSymptomAssistant \u2014 Emergency Red-Flag Detection (input)",
+  "parts": [
+   [
+    "",
+    "session.txt",
+    [
+     185,
+     199
+    ]
+   ]
+  ]
+ },
+ {
+  "out": "07_emergency_report.png",
+  "title": "Terminal \u2014 MedicalSymptomAssistant \u2014 Emergency Red-Flag Detection (report)",
+  "parts": [
+   [
+    "",
+    "session.txt",
+    [
+     201,
+     271
+    ]
+   ]
+  ]
+ }
+]

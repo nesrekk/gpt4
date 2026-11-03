@@ -1,0 +1,10 @@
+[
+ {"out": "01_dataset_preparation.png", "title": "Terminal — ECommerceGPT — Part A Dataset Preparation", "parts": [["python create_embeddings.py", "dataset.txt"]]},
+ {"out": "02_faq_semantic_search.png", "title": "Terminal — ECommerceGPT — Part B FAQ Semantic Search", "parts": [["python faq_module.py", "faq.txt"], ["python faq_module.py", "faq2.txt"], ["python faq_module.py", "faq3.txt"]]},
+ {"out": "03_product_recommendation.png", "title": "Terminal — ECommerceGPT — Part C Product Recommendation", "parts": [["python recommendation_module.py", "recommend.txt"]]},
+ {"out": "04_product_qa_rag.png", "title": "Terminal — ECommerceGPT — Part D Product QA (RAG)", "parts": [["python product_module.py", "product.txt"]]},
+ {"out": "05_review_summary.png", "title": "Terminal — ECommerceGPT — Part E Review Intelligence", "parts": [["python review_module.py", "review.txt"]]},
+ {"out": "06_intent_detection.png", "title": "Terminal — ECommerceGPT — Part F Intent Detection", "parts": [["python intent_module.py", "intent.txt"]]},
+ {"out": "07_chatbot_part1.png", "title": "Terminal — ECommerceGPT — Integrated Chatbot (1/2)", "parts": [["python chatbot.py", "chatbot.txt", [1, 51]]]},
+ {"out": "08_chatbot_part2.png", "title": "Terminal — ECommerceGPT — Integrated Chatbot (2/2)", "parts": [["", "chatbot.txt", [52, 200]]]}
+]

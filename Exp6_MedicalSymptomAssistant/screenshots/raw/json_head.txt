@@ -1,0 +1,27 @@
+{
+  "input": {
+    "age": "21",
+    "sex": "Male",
+    "symptoms": "fever, dry cough, sore throat and body pain since Monday",
+    "duration": "3 days",
+    "severity": "Moderate",
+    "history": "Mild asthma",
+    "medication": "Paracetamol when needed",
+    "allergies": "Penicillin",
+    "additional": "Temperature 101 F at night, two classmates have similar symptoms. Follow-up answers: Can you tell me more about the severity of your body pain? Is it localized to one area or does it feel like it's throughout your entire body? Aching all over the body, mostly legs and back | Have you noticed any other symptoms such as fatigue, headache, or muscle aches? Yes, mild headache and tiredness | Can you describe the dry cough you're experiencing? Is it productive (bringing up mucus) or non-productive? Non-productive dry cough, worse at night | Have you recently traveled or been exposed to anyone who's been traveling or living in a crowded area? No travel, but two classmates in my hostel have the same symptoms | Have you taken any other medications besides paracetamol, such as decongestants or antihistamines? No other medicines"
+  },
+  "profile": {
+    "age": 21,
+    "age_group": "Adult",
+    "sex": "Male"
+  },
+  "symptoms": [
+    "Fever",
+    "Dry cough",
+    "Sore throat",
+    "Body pain"
+  ],
+  "context": {
+    "duration": "3 days",
+    "duration_days": 3.0,
+    "severity": "Moderate...

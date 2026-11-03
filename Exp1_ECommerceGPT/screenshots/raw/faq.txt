@@ -1,0 +1,7 @@
+Loading FAQ Module...
+Ask Question : Where is my parcel?
+Best Matching FAQ : Where is my parcel?
+Similarity Score 0.81
+
+Chatbot:
+Go to the Track Order page using your order ID; it will show you the status of your parcel.

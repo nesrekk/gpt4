@@ -1,0 +1,15 @@
+Ask something: How can I return a product I bought online?
+
+ Qwen says:
+ To return a product you've purchased online, you can do the following steps:
+
+  1. Log in to your online store's account and locate the product you want to return. You can usually find it by searching for it or by browsing the products.
+  2. Click on the "View" button to access the product details page.
+  3. On the product details page, click on the "Actions" button.
+  4. Select "Return" from the drop-down menu.
+  5. Follow the prompts to enter the order number for the product you want to return.
+  6. Once you've entered the order number, click on the "Pay" button to pay for the return shipping.
+  7. Once your payment is processed, the product you want to return will be returned to your store. You will receive a notification that the product has been returned.
+  8. If you do not receive a notification that the product has been returned, you can check the store's order tracking page to see if the product has been returned to your store.
+
+Note: Some online stores may have a longer return process or may not allow you to return the product right away. It's important to read the store's return policy before making a purchase to ensure that the product is accepted and that the return process is as simple and smooth as possible.

@@ -1,0 +1,45 @@
+======================================================================
+Dataset : Products
+======================================================================
+ ProductID     ProductName Category  Brand  Price                                                          Description  Rating
+         1 Lenovo Laptop 1   Laptop Lenovo  30316 Laptop by Lenovo suitable for everyday use with quality performance.     4.5
+         2 Lenovo Laptop 2   Laptop Lenovo  72664 Laptop by Lenovo suitable for everyday use with quality performance.     3.8
+         3 Lenovo Laptop 3   Laptop Lenovo   7081 Laptop by Lenovo suitable for everyday use with quality performance.     4.3
+         4 Lenovo Laptop 4   Laptop Lenovo  51158 Laptop by Lenovo suitable for everyday use with quality performance.     3.8
+         5 Lenovo Laptop 5   Laptop Lenovo  80105 Laptop by Lenovo suitable for everyday use with quality performance.     3.9
+
+Rows       : 100
+Columns    : 7
+Attributes : ProductID, ProductName, Category, Brand, Price, Description, Rating
+
+======================================================================
+Dataset : FAQs
+======================================================================
+ FAQID                  Question                                          Answer
+     1  How do I track my order?    Use the Track Order page with your order ID.
+     2       Where is my parcel?    Use the Track Order page with your order ID.
+     3 How do I return my order? Initiate a return within 7 days from My Orders.
+     4    Can I cancel my order?        Orders can be cancelled before shipment.
+     5     How long is delivery?       Delivery usually takes 3-7 business days.
+
+Rows       : 20
+Columns    : 3
+Attributes : FAQID, Question, Answer
+
+======================================================================
+Dataset : Reviews
+======================================================================
+ ReviewID  ProductID     ProductName              Review  Rating
+        1          1 Lenovo Laptop 1 Not worth the price       3
+        2          1 Lenovo Laptop 1     Works perfectly       5
+        3          1 Lenovo Laptop 1   Very good quality       4
+        4          1 Lenovo Laptop 1   Excellent product       5
+        5          1 Lenovo Laptop 1   Very good quality       5
+
+Rows       : 199
+Columns    : 5
+Attributes : ReviewID, ProductID, ProductName, Review, Rating
+
+Generating FAQ embeddings...
+FAQ embeddings shape : (20, 768)
+Saved to             : models/faq_embeddings.npy

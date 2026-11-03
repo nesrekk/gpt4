@@ -1,0 +1,6 @@
+Loading FAQ Module...
+Ask Question : Recommend a gaming laptop
+Best Matching FAQ : Can I preorder?
+Similarity Score 0.18
+
+No FAQ matched above the threshold. Passing to the next module.

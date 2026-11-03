@@ -1,0 +1,37 @@
+Product Assistant (type 'exit' to stop)
+
+Ask :
+Tell me about Lenovo Laptop
+
+Output
+Retrieved Product
+Lenovo Laptop 5
+Similarity : 0.76
+
+Assistant
+The Lenovo Laptop 5 is a laptop designed for everyday use, featuring quality performance. It falls under the Lenovo brand and is categorized as a laptop. The exact price is ₹80,105, and it has a rating of 3.9 out of 5.
+
+Next Question
+
+Ask :
+What is its price?
+
+Output
+
+Assistant
+The Lenovo Laptop 5 costs ₹80,105.
+
+Next Question
+
+Ask :
+What brand is it?
+
+Output
+
+Assistant
+The product is made by Lenovo.
+
+Next Question
+
+Ask :
+exit

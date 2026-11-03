@@ -1,0 +1,86 @@
+{
+  "input": {
+    "age": "21",
+    "sex": "Male",
+    "symptoms": "fever, dry cough, sore throat and body pain since Monday",
+    "duration": "3 days",
+    "severity": "Moderate",
+    "history": "Mild asthma",
+    "medication": "Paracetamol when needed",
+    "allergies": "Penicillin",
+    "additional": "Temperature 101 F at night, two classmates have similar symptoms. Follow-up answers: Can you tell me more about the severity of your body pain? Is it localized to one area or does it feel like it's throughout your entire body? Aching all over the body, mostly legs and back | Have you noticed any other symptoms such as fatigue, headache, or muscle aches? Yes, mild headache and tiredness | Can you describe the dry cough you're experiencing? Is it productive (bringing up mucus) or non-productive? Non-productive dry cough, worse at night | Have you recently traveled or been exposed to anyone who's been traveling or living in a crowded area? No travel, but two classmates in my hostel have the same symptoms | Have you taken any other medications besides paracetamol, such as decongestants or antihistamines? No other medicines"
+  },
+  "profile": {
+    "age": 21,
+    "age_group": "Adult",
+    "sex": "Male"
+  },
+  "symptoms": [
+    "Fever",
+    "Dry cough",
+    "Sore throat",
+    "Body pain"
+  ],
+  "context": {
+    "duration": "3 days",
+    "duration_days": 3.0,
+    "severity": "Moderate",
+    "history": "Mild asthma",
+    "medication": "Paracetamol when needed",
+    "allergies": "Penicillin",
+    "additional": "Temperature 101 F at night, two classmates have similar symptoms. Follow-up answers: Can you tell me more about the severity of your body pain? Is it localized to one area or does it feel like it's throughout your entire body? Aching all over the body, mostly legs and back | Have you noticed any other symptoms such as fatigue, headache, or muscle aches? Yes, mild headache and tiredness | Can you describe the dry cough you're experiencing? Is it productive (bringing up mucus) or non-productive? Non-productive dry cough, worse at night | Have you recently traveled or been exposed to anyone who's been traveling or living in a crowded area? No travel, but two classmates in my hostel have the same symptoms | Have you taken any other medications besides paracetamol, such as decongestants or antihistamines? No other medicines",
+    "risk_factors": [
+      "asthma"
+    ]
+  },
+  "triage": {
+    "level": "SEE A DOCTOR WITHIN 24 HOURS",
+    "red_flags": [
+      "risk factors: asthma"
+    ],
+    "advice": "Book a consultation with a doctor within the next 24 hours."
+  },
+  "analysis": {
+    "possible_conditions": [
+      {
+        "condition": "Common Cold",
+        "likelihood": "High",
+        "reasoning": "Symptoms such as fever, dry cough, and sore throat are consistent with a common cold, which is a highly contagious respiratory virus."
+      },
+      {
+        "condition": "Viral Pharyngitis",
+        "likelihood": "Medium",
+        "reasoning": "The presence of a sore throat, fever, and body pain could indicate viral pharyngitis, a viral infection of the throat and tonsils."
+      },
+      {
+        "condition": "Muscle Strain",
+        "likelihood": "Low",
+        "reasoning": "The aching sensation in the legs and back could be related to a muscle strain, which is a common condition caused by overuse or injury."
+      },
+      {
+        "condition": "Influenza-like Illness",
+        "likelihood": "Low",
+        "reasoning": "The combination of fever, dry cough, and body pain, especially at night, could suggest an influenza-like illness, but this is less likely given the lack of travel history and other symptoms"
+      }
+    ],
+    "self_care": [
+      "Stay hydrated by drinking plenty of fluids, such as water, tea, or soup, to help thin out mucus and soothe a sore throat.",
+      "Rest and avoid strenuous activities to help your body recover from the infection.",
+      "Use a humidifier to add moisture to the air, which can help relieve dry cough and sore throat symptoms."
+    ],
+    "see_doctor_if": [
+      "If your fever exceeds 102 F (39 C) or lasts for more than 4 days.",
+      "If your body pain worsens or becomes severe, or if you experience difficulty breathing.",
+      "If you experience any signs of dehydration, such as excessive thirst, dark urine, or dizziness."
+    ],
+    "recommended_specialist": "GP"
+  },
+  "follow_up_questions": [
+    "Can you tell me more about the severity of your body pain? Is it localized to one area or does it feel like it's throughout your entire body?",
+    "Have you noticed any other symptoms such as fatigue, headache, or muscle aches?",
+    "Can you describe the dry cough you're experiencing? Is it productive (bringing up mucus) or non-productive?",
+    "Have you recently traveled or been exposed to anyone who's been traveling or living in a crowded area?",
+    "Have you taken any other medications besides paracetamol, such as decongestants or antihistamines?"
+  ],
+  "disclaimer": "This is general health information generated by an AI model, NOT a medical diagnosis. Always consult a qualified doctor. In an emergency call 108 (India) or go to the nearest hospital immediately."
+}

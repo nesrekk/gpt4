@@ -1,0 +1,100 @@
+AUTOMATED LEGAL DOCUMENT ANALYSIS
+Generated on  : 27-10-2026 18:44
+Source        : /Users/kersenjonathan/Desktop/gpt4/Exp5_LegalDocumentAnalyzer/data/nda_agreement.txt
+Analysis Type : Complete
+
+DOCUMENT DETAILS
+------------------------------------------------------------
+Document Type : Mutual Non-Disclosure Agreement
+Length        : 2 page(s), 620 words, 4091 characters
+Party         : BrightPath Technologies Private Limited (the company)
+Party         : Nila Analytics LLP (the limited liability partnership)
+
+SUMMARY
+------------------------------------------------------------
+BrightPath Technologies Private Limited and Nila Analytics LLP have entered into a mutual non-
+disclosure agreement to explore a possible collaboration on an AI-based demand forecasting
+platform for retail clients. The agreement requires the parties to keep confidential certain
+business, technical, and financial information. The receiving party must use the confidential
+information only for the purpose, protect it with reasonable care, and return it upon request.
+The agreement will remain in force for two years and can be terminated by either party with 30
+days' prior written notice. If a party breaches the agreement, the other party may seek
+injunctive relief and liquidated damages of INR 5,00,000 in case of proven unauthorized
+disclosure.
+
+KEY CLAUSES
+------------------------------------------------------------
+1. PURPOSE
+   The Parties agree to explore a possible collaboration to build an AI-based demand forecasting
+   platform for retail clients.
+2. CONFIDENTIAL INFORMATION
+   Confidential Information includes any business, technical or financial information disclosed
+   by one Party to the other Party, including source code, datasets, customer lists, pricing,
+   product roadmaps and trade secrets.
+4. OBLIGATIONS OF THE RECEIVING PARTY
+   The Receiving Party must use the Confidential Information only for the Purpose, not disclose
+   it without prior written consent, and protect it with reasonable care.
+5. RETURN OF INFORMATION
+   The Receiving Party must return or destroy all Confidential Information within 15 days of a
+   written request or on termination of the Agreement.
+6. TERM AND TERMINATION
+   This Agreement remains in force for two years from the Effective Date and can be terminated
+   by either Party with 30 days' prior written notice.
+8. REMEDIES
+   The breaching Party must pay liquidated damages of INR 5,00,000 for each proven unauthorised
+   disclosure.
+9. GOVERNING LAW AND JURISDICTION
+   This Agreement is governed by the laws of India and the courts at Coimbatore, Tamil Nadu have
+   exclusive jurisdiction over any dispute.
+10. ENTIRE AGREEMENT
+   This Agreement is the entire agreement between the Parties on its subject matter and may be
+   amended only in writing signed by both Parties.
+
+OBLIGATIONS
+------------------------------------------------------------
+ • [BrightPath Technologies Private Limited] must use the Confidential Information only for the
+   Purpose
+ • [BrightPath Technologies Private Limited] must not disclose the Confidential Information to
+   any third party without the prior written consent of Nila Analytics LLP
+ • [BrightPath Technologies Private Limited] must protect the Confidential Information with at
+   least the same degree of care it uses for its own confidential information
+ • [BrightPath Technologies Private Limited] must promptly notify Nila Analytics LLP in writing,
+   and in any case within 48 hours, of any unauthorised use or disclosure of Confidential
+   Information
+ • [Nila Analytics LLP] must use the Confidential Information only for the Purpose
+ • [Nila Analytics LLP] must not disclose the Confidential Information to any third party
+   without the prior written consent of BrightPath Technologies Private Limited
+ • [Nila Analytics LLP] must protect the Confidential Information with at least the same degree
+   of care it uses for its own confidential information
+ • [Nila Analytics LLP] must promptly notify BrightPath Technologies Private Limited in writing,
+   and in any case within 48 hours, of any unauthorised use or disclosure of Confidential
+   Information
+
+PAYMENT TERMS
+------------------------------------------------------------
+ • Liquidated damages of INR 5,00,000 (Rupees Five Lakh) for each proven unauthorised
+   disclosure.
+
+TERMINATION CONDITIONS
+------------------------------------------------------------
+ • Either Party may terminate this Agreement by giving thirty (30) days' prior written notice to
+   the other Party.
+ • The confidentiality obligations in Clause 4 shall survive for three (3) years after the
+   expiry or termination of this Agreement.
+ • This Agreement shall remain in force for a period of two (2) years from the Effective Date.
+
+IMPORTANT DATES
+------------------------------------------------------------
+ • 1 August 2026 - Effective Date of the Mutual Non-Disclosure Agreement
+ • two (2) years from the Effective Date - Term of the Agreement
+ • three (3) years after the expiry or termination of this Agreement - Survival of
+   confidentiality obligations
+ • thirty (30) days' prior written notice - Termination notice period
+ • 15 days - Timeframe for return of Confidential Information
+ • 48 hours - Timeframe for notification of unauthorized use or disclosure
+
+RULE-BASED CHECK (regex on the text)
+------------------------------------------------------------
+Dates   : 1 August 2026
+Amounts : INR 5,00,000
+Periods : 48 hours, 15 days, two (2) years, thirty (30) days, three (3) years

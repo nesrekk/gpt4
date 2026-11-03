@@ -1,0 +1,127 @@
+Loading modules... (FAQ, Recommendation, Product QA, Review, Intent)
+
+============================================================
+   E-COMMERCE GPT CHATBOT  (Ollama + RAG)
+   Type 'exit' to quit
+============================================================
+
+You :
+Where is my parcel?
+↓
+Detected Intent
+FAQ
+↓
+Assistant
+Go to the Track Order page using your order ID; it will show you the status of your parcel.
+
+You :
+Recommend a gaming laptop
+↓
+Detected Intent
+RECOMMENDATION
+↓
+Assistant
+Retrieved Products : ASUS Laptop 3, HP Laptop 4, Dell Laptop 1
+Among the retrieved products, I recommend
+Dell Laptop 1.
+Brand : Dell
+Price : ₹80,726
+Rating : 4.8
+Reason:
+Dell Laptop 1 is the best choice as it offers quality performance and a high rating, making it suitable for gaming as well.
+
+You :
+Tell me about Samsung Galaxy
+↓
+Detected Intent
+PRODUCT
+↓
+Assistant
+(Retrieved product : Samsung Mobile 3, similarity 0.68)
+The Samsung Mobile 3 is a mobile phone designed for everyday use, featuring quality performance. It falls under the Samsung brand and is categorized as a mobile device.
+
+You :
+What is its price?
+↓
+Detected Intent
+PRODUCT
+↓
+Assistant
+The Samsung Mobile 3 is priced at ₹50,477.
+
+You :
+What do customers think about Dell Laptop 3?
+↓
+Detected Intent
+REVIEW
+↓
+Assistant
+Reviews for Dell Laptop 3
+
+Output
+Positive : 5
+Neutral : 1
+Negative : 4
+
+Detailed Review
+Disappointing purchase
+Negative
+0.858
+------------------
+Excellent product
+Positive
+0.933
+------------------
+Works perfectly
+Positive
+0.942
+------------------
+Excellent product
+Positive
+0.933
+------------------
+Not worth the price
+Negative
+0.606
+------------------
+Worth the money
+Positive
+0.860
+------------------
+Excellent product
+Positive
+0.933
+------------------
+Not worth the price
+Negative
+0.606
+------------------
+Average quality
+Neutral
+0.497
+------------------
+Disappointing purchase
+Negative
+0.858
+------------------
+
+GPT Summary
+Overall Opinion
+The customer reviews for the Dell Laptop 3 are predominantly positive, with 5 out of 5 customers expressing satisfaction. The product is highly recommended for its performance and value, with some customers praising its quality and effectiveness. However, a few customers found it to be overpriced and not worth the money.
+
+Strengths
+• Excellent product
+• Works perfectly
+• Worth the money
+
+Weaknesses
+• Disappointing purchase
+• Not worth the price
+• Average quality
+
+Buying Suggestion
+For those looking for a high-quality, reliable Dell Laptop 3, this product is highly recommended. It offers excellent performance and value, making it a worthwhile investment. However, customers should be aware that it may not be the best option for those on a tight budget.
+
+You :
+exit
+Assistant : Thank you for shopping with us. Goodbye!

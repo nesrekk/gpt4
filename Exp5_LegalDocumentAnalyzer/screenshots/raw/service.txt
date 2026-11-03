@@ -1,0 +1,186 @@
+
+==========================================================
+     AUTOMATED LEGAL DOCUMENT ANALYZER (Ollama)
+==========================================================
+ Summarizes contracts and extracts parties, key clauses,
+ obligations, payment terms, termination and dates.
+ Sample documents: data/nda_agreement.txt
+                   data/service_agreement.pdf
+==========================================================
+Legal document: enter a file path (.txt / .pdf / .docx) or type PASTE to paste text
+Document : data/service_agreement.pdf
+
+Document Type
+  1. Auto-detect
+  2. NDA
+  3. Employment
+  4. Service
+  5. Lease
+  6. Sale
+  7. Other
+Enter choice : 4
+
+Parties (optional, comma separated - press Enter to detect) : GreenLeaf Retail, CodeCraft Solutions
+
+Analysis Type
+  1. Summary
+  2. Clause
+  3. Obligation
+  4. Complete
+Enter choice : 2
+
+Extracted text from service_agreement.pdf (2 page(s), 3288 raw characters)
+Preprocessed text: 523 words, 3267 characters
+Analysing (Clause analysis)...
+  - overview...
+  - clauses...
+  - money and exit...
+
+LEGAL DOCUMENT ANALYSIS (Ollama - Llama 3.2)
+------------------------------------------------------------
+DOCUMENT DETAILS
+------------------------------------------------------------
+Document Type : Software Development Service Agreement
+Length        : 2 page(s), 523 words, 3267 characters
+Party         : GreenLeaf Retail Private Limited (Client)
+Party         : CodeCraft Solutions (Service Provider)
+
+SUMMARY
+------------------------------------------------------------
+This agreement outlines the terms for a software development project between GreenLeaf Retail
+and CodeCraft Solutions. The Service Provider will design, develop, test, and deploy a mobile
+shopping application for the Client. The project timeline includes milestones and payment terms.
+The Service Provider is responsible for delivering the services with reasonable skill and care,
+and the Client must provide product data and make payments on time. The agreement also includes
+provisions for intellectual property, termination, limitation of liability, and dispute
+resolution.
+
+KEY CLAUSES
+------------------------------------------------------------
+1. SCOPE OF SERVICES
+   The Service Provider is responsible for designing, developing, testing, and deploying an
+   Android and iOS mobile shopping application for the Client.
+3. FEES AND PAYMENT TERMS
+   The total fee for the Services is INR 6,00,000, payable in three installments: 30% as
+   advance, 30% on acceptance of Milestone 2, and 40% within 15 days of the final release.
+4. OBLIGATIONS OF THE SERVICE PROVIDER
+   The Service Provider must perform the Services with reasonable skill and care, assign
+   qualified developers, fix bugs within 90 days, and keep the Client's data confidential.
+5. OBLIGATIONS OF THE CLIENT
+   The Client must provide product data, logos, and content within 5 working days, give feedback
+   on deliverables within 7 days, and make payments on time.
+6. INTELLECTUAL PROPERTY
+   On receipt of full payment, all rights in the source code and designs created under this
+   Agreement transfer to the Client.
+8. LIMITATION OF LIABILITY
+   The Service Provider's total liability under this Agreement shall not exceed the total fees
+   paid by the Client.
+9. DISPUTE RESOLUTION
+   Any dispute shall first be resolved through good-faith negotiation for 30 days, failing which
+   it shall be referred to arbitration by a sole arbitrator in Coimbatore under the Arbitration
+   and Conciliation Act, 1996.
+7. TERMINATION
+   Either party may terminate this Agreement by giving 30 days' written notice, with the Client
+   paying for all work completed up to the termination date and the Service Provider handing
+   over all work in progress.
+
+PAYMENT TERMS
+------------------------------------------------------------
+ • 30% (INR 1,80,000) as advance within 7 days of signing this Agreement
+ • 30% (INR 1,80,000) on acceptance of Milestone 2
+ • 40% (INR 2,40,000) within 15 days of the final release
+
+TERMINATION CONDITIONS
+------------------------------------------------------------
+ • Either party may terminate this Agreement by giving 30 days' written notice
+ • The Client may terminate immediately if the Service Provider materially breaches this
+   Agreement and fails to cure the breach within 15 days of written notice
+
+RULE-BASED CHECK (regex on the text)
+------------------------------------------------------------
+Dates   : 15 September 2026, 15 October 2026, 30 November 2026, 15 January 2027
+Amounts : INR 6,00,000, INR 1,80,000, INR 2,40,000
+Periods : 10 days, 7 days, 15 days, 90 days, 30 days
+
+Save this analysis? (y/n) : y
+Analysis saved successfully to outputs/service_agreement_clause_analysis.txt
+
+Analyze another document? (y/n) : y
+
+Legal document: enter a file path (.txt / .pdf / .docx) or type PASTE to paste text
+Document : data/service_agreement.pdf
+
+Document Type
+  1. Auto-detect
+  2. NDA
+  3. Employment
+  4. Service
+  5. Lease
+  6. Sale
+  7. Other
+Enter choice : 4
+
+Parties (optional, comma separated - press Enter to detect) : 
+
+Analysis Type
+  1. Summary
+  2. Clause
+  3. Obligation
+  4. Complete
+Enter choice : 3
+
+Extracted text from service_agreement.pdf (2 page(s), 3288 raw characters)
+Preprocessed text: 523 words, 3267 characters
+Analysing (Obligation analysis)...
+  - overview...
+  - obligations...
+  - dates...
+
+LEGAL DOCUMENT ANALYSIS (Ollama - Llama 3.2)
+------------------------------------------------------------
+DOCUMENT DETAILS
+------------------------------------------------------------
+Document Type : Software Development Service Agreement
+Length        : 2 page(s), 523 words, 3267 characters
+Party         : GreenLeaf Retail Private Limited (Client)
+Party         : CodeCraft Solutions (Service Provider)
+
+SUMMARY
+------------------------------------------------------------
+This agreement outlines the terms for a software development project between GreenLeaf Retail
+Private Limited and CodeCraft Solutions. The Service Provider will design, develop, test, and
+deploy a mobile shopping application for the Client. The project timeline includes milestones
+and payment terms, with the total fee set at INR 6,00,000. The Service Provider is obligated to
+perform the services with reasonable skill and care, keep the Client's data confidential, and
+fix bugs within a certain period. The Client is responsible for providing product data and
+making payments on time. In the event of termination, the Client will pay for completed work,
+and the Service Provider will hand over work in progress.
+
+OBLIGATIONS
+------------------------------------------------------------
+ • [CodeCraft Solutions] perform the Services with reasonable skill and care; assign qualified
+   developers; fix all bugs reported within 90 days after the final release at no extra cost
+   (Warranty Period); and keep the Client's data confidential.
+ • [GreenLeaf Retail Private Limited] provide product data, logos and content within 5 working
+   days of a request; give feedback on each deliverable within 7 days; and make payments on
+   time.
+
+IMPORTANT DATES
+------------------------------------------------------------
+ • 15 September 2026 - Service Agreement made
+ • 15 October 2026 - Milestone 1 - UI/UX design approval deadline
+ • 30 November 2026 - Milestone 2 - Beta version delivered for testing deadline
+ • 15 January 2027 - Milestone 3 - Final release on Google Play and the App Store deadline
+
+RULE-BASED CHECK (regex on the text)
+------------------------------------------------------------
+Dates   : 15 September 2026, 15 October 2026, 30 November 2026, 15 January 2027
+Amounts : INR 6,00,000, INR 1,80,000, INR 2,40,000
+Periods : 10 days, 7 days, 15 days, 90 days, 30 days
+
+Save this analysis? (y/n) : y
+Analysis saved successfully to outputs/service_agreement_obligation_analysis.txt
+
+Analyze another document? (y/n) : n
+
+Thank you for using the Legal Document Analyzer. Goodbye!

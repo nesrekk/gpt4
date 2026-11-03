@@ -1,0 +1,275 @@
+Loading previous customer interactions...
+100 previous emails loaded from data/emails.csv
+
+==============================================
+    INTELLIGENT EMAIL ASSISTANT (Ollama)
+==============================================
+ 1. Enter Customer Email
+ 2. Detect Intent
+ 3. Find Similar Previous Email
+ 4. Generate AI Reply
+ 5. Improve Tone (Friendly / Formal / Empathetic)
+ 6. Conversation Summary
+ 7. Save Reply
+ 8. Exit
+==============================================
+Enter your choice : 1
+Customer Name : John
+Subject : Delivery Delay
+Customer Email :
+My order has not arrived. It was supposed to be delivered three days ago and the tracking page still shows it is in transit.
+----------------------------------------
+Customer Name : John
+Subject       : Delivery Delay
+Customer Email
+My order has not arrived. It was supposed to be delivered three days ago and the tracking page still shows it is in transit.
+----------------------------------------
+
+==============================================
+    INTELLIGENT EMAIL ASSISTANT (Ollama)
+==============================================
+ 1. Enter Customer Email
+ 2. Detect Intent
+ 3. Find Similar Previous Email
+ 4. Generate AI Reply
+ 5. Improve Tone (Friendly / Formal / Empathetic)
+ 6. Conversation Summary
+ 7. Save Reply
+ 8. Exit
+==============================================
+Enter your choice : 2
+
+Detected Intent
+Delivery Issue
+
+==============================================
+    INTELLIGENT EMAIL ASSISTANT (Ollama)
+==============================================
+ 1. Enter Customer Email
+ 2. Detect Intent
+ 3. Find Similar Previous Email
+ 4. Generate AI Reply
+ 5. Improve Tone (Friendly / Formal / Empathetic)
+ 6. Conversation Summary
+ 7. Save Reply
+ 8. Exit
+==============================================
+Enter your choice : 3
+
+Matched Record  : E002 (Delivery Issue, similarity 0.65)
+Previous Email
+My shipment is delayed.
+Previous Reply
+We sincerely apologize for the delay. Our logistics team is tracking your shipment and will update you within 24 hours.
+
+==============================================
+    INTELLIGENT EMAIL ASSISTANT (Ollama)
+==============================================
+ 1. Enter Customer Email
+ 2. Detect Intent
+ 3. Find Similar Previous Email
+ 4. Generate AI Reply
+ 5. Improve Tone (Friendly / Formal / Empathetic)
+ 6. Conversation Summary
+ 7. Save Reply
+ 8. Exit
+==============================================
+Enter your choice : 4
+
+AI Generated Reply
+----------------------------------------
+Dear John,
+
+We sincerely apologize for the delay in your delivery. Our logistics team is actively working to resolve the issue and will provide an update on the status of your shipment within 24 hours. We appreciate your patience and understanding in this matter. We will keep you informed of any further developments.
+
+Regards,
+Support Team
+
+==============================================
+    INTELLIGENT EMAIL ASSISTANT (Ollama)
+==============================================
+ 1. Enter Customer Email
+ 2. Detect Intent
+ 3. Find Similar Previous Email
+ 4. Generate AI Reply
+ 5. Improve Tone (Friendly / Formal / Empathetic)
+ 6. Conversation Summary
+ 7. Save Reply
+ 8. Exit
+==============================================
+Enter your choice : 5
+
+--- Friendly Tone ---
+Hi John,
+
+I want to start by saying sorry for the delay in getting your delivery to you. We're working hard to get it sorted out and our logistics team is on it as we speak. I'll make sure to pass on your update request to them, and you can expect to hear back from us within the next 24 hours with an update on the status of your shipment.
+
+Thanks for your patience and understanding - we appreciate it! We'll keep you in the loop with any further developments.
+
+Regards,
+Support Team
+
+--- Formal Tone ---
+Dear John,
+
+We regret to inform you that there has been a delay in the delivery of your order. Our logistics team is currently working diligently to resolve the issue and will provide a status update on your shipment within the next 24 hours. We appreciate your understanding and patience in this matter and will keep you informed of any further developments.
+
+Regards,
+Support Team
+
+--- Empathetic Tone ---
+Dear John,
+
+We're so sorry to hear that your delivery was delayed. We know how frustrating that can be, and we want to assure you that we're doing everything in our power to get your shipment to you as soon as possible. Our logistics team is working diligently to resolve the issue, and we'll be in touch with you within 24 hours to provide an update on the status of your shipment. We appreciate your patience and understanding, and we want to thank you for giving us the opportunity to make things right. We'll keep you informed of any further developments, and we're committed to getting your delivery to you as soon as we can.
+
+Regards,
+Support Team
+
+==============================================
+    INTELLIGENT EMAIL ASSISTANT (Ollama)
+==============================================
+ 1. Enter Customer Email
+ 2. Detect Intent
+ 3. Find Similar Previous Email
+ 4. Generate AI Reply
+ 5. Improve Tone (Friendly / Formal / Empathetic)
+ 6. Conversation Summary
+ 7. Save Reply
+ 8. Exit
+==============================================
+Enter your choice : 6
+
+Conversation Summary
+John's order was delayed and he reported it to support, stating it was supposed to be delivered three days ago. The support team apologized and assured John that they are actively working to resolve the issue, promising to provide an update on the shipment status within 24 hours.
+
+==============================================
+    INTELLIGENT EMAIL ASSISTANT (Ollama)
+==============================================
+ 1. Enter Customer Email
+ 2. Detect Intent
+ 3. Find Similar Previous Email
+ 4. Generate AI Reply
+ 5. Improve Tone (Friendly / Formal / Empathetic)
+ 6. Conversation Summary
+ 7. Save Reply
+ 8. Exit
+==============================================
+Enter your choice : 7
+
+Reply saved successfully to outputs/generated_reply.txt
+
+==============================================
+    INTELLIGENT EMAIL ASSISTANT (Ollama)
+==============================================
+ 1. Enter Customer Email
+ 2. Detect Intent
+ 3. Find Similar Previous Email
+ 4. Generate AI Reply
+ 5. Improve Tone (Friendly / Formal / Empathetic)
+ 6. Conversation Summary
+ 7. Save Reply
+ 8. Exit
+==============================================
+Enter your choice : 1
+Customer Name : Priya
+Subject : Money deducted twice
+Customer Email :
+I paid for my headphones yesterday but the amount was debited two times from my bank account. Please help.
+----------------------------------------
+Customer Name : Priya
+Subject       : Money deducted twice
+Customer Email
+I paid for my headphones yesterday but the amount was debited two times from my bank account. Please help.
+----------------------------------------
+
+==============================================
+    INTELLIGENT EMAIL ASSISTANT (Ollama)
+==============================================
+ 1. Enter Customer Email
+ 2. Detect Intent
+ 3. Find Similar Previous Email
+ 4. Generate AI Reply
+ 5. Improve Tone (Friendly / Formal / Empathetic)
+ 6. Conversation Summary
+ 7. Save Reply
+ 8. Exit
+==============================================
+Enter your choice : 2
+
+Detected Intent
+Payment Issue
+
+==============================================
+    INTELLIGENT EMAIL ASSISTANT (Ollama)
+==============================================
+ 1. Enter Customer Email
+ 2. Detect Intent
+ 3. Find Similar Previous Email
+ 4. Generate AI Reply
+ 5. Improve Tone (Friendly / Formal / Empathetic)
+ 6. Conversation Summary
+ 7. Save Reply
+ 8. Exit
+==============================================
+Enter your choice : 3
+
+Matched Record  : E044 (Payment Issue, similarity 0.63)
+Previous Email
+Double payment was made.
+Previous Reply
+We have initiated an investigation. If the amount was deducted, it will be reversed automatically within 48 hours.
+
+==============================================
+    INTELLIGENT EMAIL ASSISTANT (Ollama)
+==============================================
+ 1. Enter Customer Email
+ 2. Detect Intent
+ 3. Find Similar Previous Email
+ 4. Generate AI Reply
+ 5. Improve Tone (Friendly / Formal / Empathetic)
+ 6. Conversation Summary
+ 7. Save Reply
+ 8. Exit
+==============================================
+Enter your choice : 4
+
+AI Generated Reply
+----------------------------------------
+Dear Priya,
+
+We have initiated an investigation into the issue you've reported. If the amount was deducted from your bank account, it will be reversed automatically within 48 hours. Please allow some time for the process to complete. If you have any further concerns, please don't hesitate to reach out.
+
+Regards,
+Support Team
+
+==============================================
+    INTELLIGENT EMAIL ASSISTANT (Ollama)
+==============================================
+ 1. Enter Customer Email
+ 2. Detect Intent
+ 3. Find Similar Previous Email
+ 4. Generate AI Reply
+ 5. Improve Tone (Friendly / Formal / Empathetic)
+ 6. Conversation Summary
+ 7. Save Reply
+ 8. Exit
+==============================================
+Enter your choice : 7
+
+Reply saved successfully to outputs/generated_reply.txt
+
+==============================================
+    INTELLIGENT EMAIL ASSISTANT (Ollama)
+==============================================
+ 1. Enter Customer Email
+ 2. Detect Intent
+ 3. Find Similar Previous Email
+ 4. Generate AI Reply
+ 5. Improve Tone (Friendly / Formal / Empathetic)
+ 6. Conversation Summary
+ 7. Save Reply
+ 8. Exit
+==============================================
+Enter your choice : 8
+
+Thank you for using the Intelligent Email Assistant. Goodbye!

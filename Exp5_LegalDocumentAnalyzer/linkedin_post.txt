@@ -1,0 +1,19 @@
+⚖️🤖 Built an Automated Legal Document Analyzer with a local LLM!
+
+For my 24CS2506 – Building Applications using GPT-4 lab at Karunya Institute of Technology and Sciences, I built a tool that reads contracts and turns them into a clear, structured report, running fully offline with Ollama.
+
+What it does:
+✅ Reads contracts from PDF, Word or text files, or pasted text
+✅ Cleans the text and finds dates, amounts and notice periods with rule-based checks
+✅ Writes a plain-English summary and identifies the parties
+✅ Extracts key clauses, each party's obligations, payment terms, termination conditions and important dates
+✅ Lets you choose Summary, Clause, Obligation or Complete analysis, and saves the report
+
+Tech: Python • Ollama (Llama 3.2, JSON mode) • PyMuPDF • python-docx • Prompt Engineering
+
+Note: this is an educational project, not legal advice.
+
+🔗 GitHub: <GitHub Link>
+🎥 Demo video attached
+
+#GenerativeAI #LegalTech #LLM #Ollama #NLP #Python #Karunya

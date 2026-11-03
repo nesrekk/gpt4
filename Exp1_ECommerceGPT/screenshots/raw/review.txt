@@ -1,0 +1,65 @@
+Enter Product
+Lenovo Laptop 3
+
+Output
+Positive : 8
+Neutral : 1
+Negative : 1
+
+Detailed Review
+Worth the money
+Positive
+0.860
+------------------
+Highly recommended
+Positive
+0.939
+------------------
+Works perfectly
+Positive
+0.942
+------------------
+Very good quality
+Positive
+0.920
+------------------
+Works perfectly
+Positive
+0.942
+------------------
+Highly recommended
+Positive
+0.939
+------------------
+Works perfectly
+Positive
+0.942
+------------------
+Works perfectly
+Positive
+0.942
+------------------
+Stopped working soon
+Neutral
+0.715
+------------------
+Poor battery
+Negative
+0.740
+------------------
+
+GPT Summary
+Overall Opinion
+The Lenovo Laptop 3 is highly recommended and highly satisfactory.
+
+Strengths
+• Highly recommended
+• Works perfectly
+• Very good quality
+• Worth the money
+
+Weaknesses
+• Poor battery
+
+Buying Suggestion
+Consider the laptop for its excellent performance and value for money, despite the short battery life.

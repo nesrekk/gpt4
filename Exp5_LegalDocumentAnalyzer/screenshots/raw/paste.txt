@@ -1,0 +1,67 @@
+
+==========================================================
+     AUTOMATED LEGAL DOCUMENT ANALYZER (Ollama)
+==========================================================
+ Summarizes contracts and extracts parties, key clauses,
+ obligations, payment terms, termination and dates.
+ Sample documents: data/nda_agreement.txt
+                   data/service_agreement.pdf
+==========================================================
+Legal document: enter a file path (.txt / .pdf / .docx) or type PASTE to paste text
+Document : PASTE
+Paste the legal text. Finish with a line containing only END.
+EMPLOYMENT OFFER TERMS. Karunya Software Labs (the Employer) appoints Ms. Divya Menon (the Employee) as Junior Data Analyst from 1 December 2026 on a monthly salary of INR 45,000. The first 6 months are a probation period, during which either party may end the employment with 15 days' notice; after probation the notice period is 60 days. The Employee shall not work for a competing company during employment and shall keep all company data confidential. The Employee is entitled to 18 days of paid leave per year.
+END
+
+Document Type
+  1. Auto-detect
+  2. NDA
+  3. Employment
+  4. Service
+  5. Lease
+  6. Sale
+  7. Other
+Enter choice : 3
+
+Parties (optional, comma separated - press Enter to detect) : 
+
+Analysis Type
+  1. Summary
+  2. Clause
+  3. Obligation
+  4. Complete
+Enter choice : 1
+Preprocessed text: 87 words, 515 characters
+Analysing (Summary analysis)...
+  - overview...
+
+LEGAL DOCUMENT ANALYSIS (Ollama - Llama 3.2)
+------------------------------------------------------------
+DOCUMENT DETAILS
+------------------------------------------------------------
+Document Type : Employment Offer Terms
+Length        : 1 page(s), 87 words, 515 characters
+Party         : Karunya Software Labs (Employer)
+Party         : Ms. Divya Menon (Employee)
+
+SUMMARY
+------------------------------------------------------------
+Karunya Software Labs is offering Ms. Divya Menon a job as Junior Data Analyst starting on 1
+December 2026. The job comes with a monthly salary of INR 45,000. The first six months are a
+trial period, and either party can quit with 15 days' notice. After the trial period, the
+employee must give 60 days' notice to quit. The employee is not allowed to work for a competing
+company and must keep company data secret. The employee is also entitled to 18 days of paid
+leave per year.
+
+RULE-BASED CHECK (regex on the text)
+------------------------------------------------------------
+Dates   : 1 December 2026
+Amounts : INR 45,000
+Periods : 6 months, 15 days, 60 days, 18 days
+
+Save this analysis? (y/n) : y
+Analysis saved successfully to outputs/pasted_document_summary_analysis.txt
+
+Analyze another document? (y/n) : n
+
+Thank you for using the Legal Document Analyzer. Goodbye!

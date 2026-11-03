@@ -1,0 +1,30 @@
+AUTOMATED LEGAL DOCUMENT ANALYSIS
+Generated on  : 27-10-2026 19:10
+Source        : /Users/kersenjonathan/Desktop/gpt4/Exp5_LegalDocumentAnalyzer/data/service_agreement.pdf
+Analysis Type : Obligation
+
+DOCUMENT DETAILS
+------------------------------------------------------------
+Document Type : Software Development Service Agreement
+Length        : 2 page(s), 523 words, 3267 characters
+Party         : GreenLeaf Retail Private Limited (Client)
+Party         : CodeCraft Solutions (Service Provider)
+
+SUMMARY
+------------------------------------------------------------
+This agreement outlines the terms for a software development project between GreenLeaf Retail
+Private Limited and CodeCraft Solutions. The Service Provider will design, develop, test, and
+deploy a mobile shopping application for the Client. The project timeline includes milestones
+and payment terms, with the total fee set at INR 6,00,000. The Service Provider is obligated to
+perform the services with reasonable skill and care, keep the Client's data confidential, and
+fix bugs within a certain period. The Client is responsible for providing product data and
+making payments on time. In the event of termination, the Client will pay for completed work,
+and the Service Provider will hand over work in progress.
+
+OBLIGATIONS
+------------------------------------------------------------
+ • [CodeCraft Solutions] perform the Services with reasonable skill and care; assign qualified
+   developers; fix all bugs reported within 90 days after the final release at no extra cost
+   (Warranty Period); and keep the Client's data confidential.
+ • [GreenLeaf Retail Private Limited] provide product data, logos and content within 5 working
+   days of a request; give feedback on each deliverable within 7 days; and make payments on

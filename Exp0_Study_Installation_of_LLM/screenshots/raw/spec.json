@@ -1,0 +1,6 @@
+[
+ {"out": "01_install_and_version.png", "title": "Terminal — Installing Ollama", "parts": [["brew install ollama   # (Windows/Linux: installer from https://ollama.com/download)", "brew.txt"], ["ollama --version", "version.txt"]]},
+ {"out": "02_pull_model.png", "title": "Terminal — Downloading the Qwen model", "parts": [["ollama pull qwen2.5:0.5b", "pull.txt"], ["ollama list", "list.txt"]]},
+ {"out": "03_ollama_run.png", "title": "Terminal — Running the model from the command line", "parts": [["ollama run qwen2.5:0.5b \"What is a Large Language Model? Answer in 2 sentences.\"", "run.txt"]]},
+ {"out": "04_python_program.png", "title": "Terminal — Using Qwen from Python (qwen_chat.py)", "parts": [["pip show ollama", "pip.txt"], ["python qwen_chat.py", "program.txt"]]}
+]

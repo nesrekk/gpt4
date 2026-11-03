@@ -1,0 +1,19 @@
+🛒🤖 Built an AI-Powered E-Commerce Chatbot that runs 100% locally!
+
+As part of my 24CS2506 – Building Applications using GPT-4 lab at Karunya Institute of Technology and Sciences, I built a modular RAG (Retrieval-Augmented Generation) chatbot with Ollama.
+
+What it does:
+✅ Semantic FAQ answering – sentence embeddings + cosine similarity with a confidence threshold
+✅ Product recommendations – TF-IDF retrieval of the Top-3 products, then the LLM picks the best one and explains why
+✅ Product Q&A (RAG) – answers only from the retrieved product details and remembers follow-ups like "What is its price?"
+✅ Review intelligence – RoBERTa sentiment analysis + an LLM summary with strengths, weaknesses and a buying suggestion
+✅ LLM-based intent detection that routes every message to the right module
+
+Tech: Python • Ollama (Qwen 2.5) • Sentence-Transformers • scikit-learn • Hugging Face Transformers • Pandas
+
+No cloud API, no API cost, and the data stays on my machine.
+
+🔗 GitHub: <GitHub Link>
+🎥 Demo video attached
+
+#GenerativeAI #RAG #Ollama #LLM #Python #Chatbot #Karunya

@@ -1,0 +1,5 @@
+#!/bin/bash
+# rs <exp-dir> <name> <command> [expect answer]...
+G="$HOME/Desktop/gpt4"; E="$1"; N="$2"; shift 2
+mkdir -p "$E/screenshots/raw"
+"$G/.venv/bin/python" "$G/_tools/run_session.py" "$E" "$E/screenshots/raw/$N.txt" "$@"

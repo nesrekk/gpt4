@@ -1,0 +1,17 @@
+📧🤖 Built an Intelligent Email Assistant that drafts customer-support replies!
+
+In my 24CS2506 – Building Applications using GPT-4 lab, I built an email assistant that learns from 100 past customer conversations and runs locally with Ollama.
+
+How it works:
+1️⃣ Detects the customer's intent (delivery issue, refund, payment issue, complaint …)
+2️⃣ Retrieves the most similar past email using sentence embeddings
+3️⃣ Generates a professional, context-aware reply with Llama 3.2
+4️⃣ Rewrites the reply in a Friendly, Formal or Empathetic tone
+5️⃣ Summarizes the conversation in ~50 words and saves the reply with intent and date
+
+Tech: Python • Ollama • Llama 3.2 • Sentence-Transformers • Pandas
+
+🔗 GitHub: <GitHub Link>
+🎥 Demo video attached
+
+#GenerativeAI #NLP #Ollama #CustomerSupport #EmailAutomation #Python #Karunya

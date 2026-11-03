@@ -1,0 +1,26 @@
+AUTOMATED LEGAL DOCUMENT ANALYSIS
+Generated on  : 27-10-2026 18:55
+Source        : Pasted text
+Analysis Type : Summary
+
+DOCUMENT DETAILS
+------------------------------------------------------------
+Document Type : Employment Offer Terms
+Length        : 1 page(s), 87 words, 515 characters
+Party         : Karunya Software Labs (Employer)
+Party         : Ms. Divya Menon (Employee)
+
+SUMMARY
+------------------------------------------------------------
+Karunya Software Labs is offering Ms. Divya Menon a job as Junior Data Analyst starting on 1
+December 2026. The job comes with a monthly salary of INR 45,000. The first six months are a
+trial period, and either party can quit with 15 days' notice. After the trial period, the
+employee must give 60 days' notice to quit. The employee is not allowed to work for a competing
+company and must keep company data secret. The employee is also entitled to 18 days of paid
+leave per year.
+
+RULE-BASED CHECK (regex on the text)
+------------------------------------------------------------
+Dates   : 1 December 2026
+Amounts : INR 45,000
+Periods : 6 months, 15 days, 60 days, 18 days

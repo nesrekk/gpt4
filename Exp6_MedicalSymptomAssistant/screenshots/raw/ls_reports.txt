@@ -1,0 +1,4 @@
+symptom_report_20261027_191310.json
+symptom_report_20261027_191310.txt
+symptom_report_20261027_191334.json
+symptom_report_20261027_191334.txt

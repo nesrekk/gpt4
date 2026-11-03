@@ -1,0 +1,18 @@
+✍️🤖 Built an AI-Powered Blog Content Generator with a local LLM!
+
+For my 24CS2506 – Building Applications using GPT-4 lab, I built a modular blog generator that runs completely offline with Ollama + Llama 3.2.
+
+Features:
+✅ Generates a full blog from a topic, writing style, tone and word count
+✅ Suggests 5 catchy titles
+✅ Extracts SEO keywords
+✅ Writes a ~100-word summary and an SEO meta description (≤160 characters)
+✅ Understands plain-English requests like "Write a blog on Cyber Security" through LLM intent detection
+✅ Saves everything to a text file
+
+Tech: Python • Ollama • Llama 3.2 • Prompt Engineering
+
+🔗 GitHub: <GitHub Link>
+🎥 Demo video attached
+
+#GenerativeAI #Ollama #Llama3 #PromptEngineering #ContentGeneration #Python #Karunya

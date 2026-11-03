@@ -1,0 +1,28 @@
+Example 1
+Question
+Where is my parcel?
+Output
+Intent
+FAQ
+
+Example 2
+Question
+Recommend a gaming laptop
+Output
+Intent
+RECOMMENDATION
+
+Example 3
+Question
+Tell me about Samsung Galaxy
+Output
+Intent
+PRODUCT
+
+Question (exit to stop): What do customers think about HP Laptop 2?
+Intent : REVIEW
+Question (exit to stop): How do I cancel my order?
+Intent : FAQ
+Question (exit to stop): Suggest a good smartwatch
+Intent : RECOMMENDATION
+Question (exit to stop): exit

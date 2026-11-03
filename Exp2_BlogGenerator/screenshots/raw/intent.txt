@@ -1,0 +1,18 @@
+Example 1
+User
+Write a blog on Cyber Security
+Detected Intent
+BLOG_GENERATION
+
+Example 2
+User
+Summarize this blog
+Detected Intent
+SUMMARY
+
+Example 3
+User
+Give SEO keywords
+Detected Intent
+KEYWORD_GENERATION
+

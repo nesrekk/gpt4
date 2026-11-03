@@ -1,0 +1,18 @@
+🎯🤖 Built a Personalized Recommendation System powered by an LLM!
+
+For my 24CS2506 – Building Applications using GPT-4 lab, I built a recommendation system that understands a learner's profile in plain language and suggests the right courses.
+
+Features:
+✅ Collects the user's profile: background, interests, skill level, goal, preferences
+✅ LLM-based preference analysis
+✅ Generates personalized recommendations with a reason and a suitability score
+✅ Ranks the recommendations and explains why each one fits
+✅ Refines the list based on feedback (e.g. "I prefer AI, no Web Development")
+✅ Intent detection for every request: recommend, refine, explain, show profile, save, exit
+
+Tech: Python • Ollama (Llama 3.2, JSON mode) • Prompt Engineering
+
+🔗 GitHub: <GitHub Link>
+🎥 Demo video attached
+
+#GenerativeAI #RecommendationSystem #LLM #Ollama #Personalization #Python #Karunya
